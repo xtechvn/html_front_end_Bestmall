@@ -16,7 +16,7 @@
 
 </head>
 
-<body class="text-sky-900 bg-[#F9FBFC]">
+<body class="text-sky-900">
     <!-- Topbar -->
 
     <div class="bg-sky-900 ">
@@ -87,16 +87,16 @@
                                 fill="none">
                                 <path
                                     d="M6.875 5C6.875 4.83424 6.94085 4.67527 7.05806 4.55806C7.17527 4.44085 7.33424 4.375 7.5 4.375H16.875C17.0408 4.375 17.1997 4.44085 17.3169 4.55806C17.4342 4.67527 17.5 4.83424 17.5 5C17.5 5.16576 17.4342 5.32473 17.3169 5.44194C17.1997 5.55915 17.0408 5.625 16.875 5.625H7.5C7.33424 5.625 7.17527 5.55915 7.05806 5.44194C6.94085 5.32473 6.875 5.16576 6.875 5ZM16.875 9.375H7.5C7.33424 9.375 7.17527 9.44085 7.05806 9.55806C6.94085 9.67527 6.875 9.83424 6.875 10C6.875 10.1658 6.94085 10.3247 7.05806 10.4419C7.17527 10.5592 7.33424 10.625 7.5 10.625H16.875C17.0408 10.625 17.1997 10.5592 17.3169 10.4419C17.4342 10.3247 17.5 10.1658 17.5 10C17.5 9.83424 17.4342 9.67527 17.3169 9.55806C17.1997 9.44085 17.0408 9.375 16.875 9.375ZM16.875 14.375H7.5C7.33424 14.375 7.17527 14.4408 7.05806 14.5581C6.94085 14.6753 6.875 14.8342 6.875 15C6.875 15.1658 6.94085 15.3247 7.05806 15.4419C7.17527 15.5592 7.33424 15.625 7.5 15.625H16.875C17.0408 15.625 17.1997 15.5592 17.3169 15.4419C17.4342 15.3247 17.5 15.1658 17.5 15C17.5 14.8342 17.4342 14.6753 17.3169 14.5581C17.1997 14.4408 17.0408 14.375 16.875 14.375ZM4.375 4.375H3.125C2.95924 4.375 2.80027 4.44085 2.68306 4.55806C2.56585 4.67527 2.5 4.83424 2.5 5C2.5 5.16576 2.56585 5.32473 2.68306 5.44194C2.80027 5.55915 2.95924 5.625 3.125 5.625H4.375C4.54076 5.625 4.69973 5.55915 4.81694 5.44194C4.93415 5.32473 5 5.16576 5 5C5 4.83424 4.93415 4.67527 4.81694 4.55806C4.69973 4.44085 4.54076 4.375 4.375 4.375ZM4.375 9.375H3.125C2.95924 9.375 2.80027 9.44085 2.68306 9.55806C2.56585 9.67527 2.5 9.83424 2.5 10C2.5 10.1658 2.56585 10.3247 2.68306 10.4419C2.80027 10.5592 2.95924 10.625 3.125 10.625H4.375C4.54076 10.625 4.69973 10.5592 4.81694 10.4419C4.93415 10.3247 5 10.1658 5 10C5 9.83424 4.93415 9.67527 4.81694 9.55806C4.69973 9.44085 4.54076 9.375 4.375 9.375ZM4.375 14.375H3.125C2.95924 14.375 2.80027 14.4408 2.68306 14.5581C2.56585 14.6753 2.5 14.8342 2.5 15C2.5 15.1658 2.56585 15.3247 2.68306 15.4419C2.80027 15.5592 2.95924 15.625 3.125 15.625H4.375C4.54076 15.625 4.69973 15.5592 4.81694 15.4419C4.93415 15.3247 5 15.1658 5 15C5 14.8342 4.93415 14.6753 4.81694 14.5581C4.69973 14.4408 4.54076 14.375 4.375 14.375Z"
-                                    fill="#098EF7" />
+                                    fill="#773EFA" />
                             </svg>
-                            <span class="md:block hidden">Danh mục</span>
+                            <span class="md:block hidden text-color-base">Danh mục</span>
                         </button>
 
                         <div id="mobileMenu"
                             class="fixed top-0 left-0 w-full h-full bg-white z-[9999] transform -translate-x-full transition-transform duration-300 ease-in-out
-                            md:absolute md:top-auto md:hidden md:group-hover:block md:shadow-lg md:rounded-md md:w-50 md:z-50 md:border md:border-gray-200 md:translate-none">
-                            <div class="p-4 flex justify-between items-center border-b border-gray-300 md:hidden">
-                                <span class="text-lg font-semibold">Danh mục</span>
+                            md:absolute md:top-auto md:hidden md:group-hover:block md:shadow-lg md:rounded-md md:w-50 md:z-50  md:translate-none">
+                            <div class="p-4 flex justify-between items-center md:hidden border-b">
+                                <span class="text-lg font-semibold">Danh mục sản phẩm</span>
                                 <button id="menuClose">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
                                         fill="none">
@@ -106,7 +106,7 @@
                                     </svg>
                                 </button>
                             </div>
-                            <ul class="p-4 space-y-2 bg-white">
+                            <ul class="p-4 space-y-2 md:w-[250px]">
                                 <li><a href="#" class="block py-2 hover:text-red-400 rounded">Khung ảnh</a></li>
                                 <li><a href="#" class="block py-2 hover:text-red-400 rounded">Tranh canvas</a></li>
                                 <li><a href="#" class="block py-2 hover:text-red-400 rounded">Quà tặng</a></li>
@@ -129,30 +129,37 @@
                                     fill="currentColor"></path>
                             </svg>
                         </div>
-                        <div class="py-[8px] px-[24px] bg-blue-100 absolute right-2 top-[5px] rounded-full">
+                        <div class="py-[8px] px-[24px] bg-blue-100 absolute right-2 top-[5px] rounded-full shadow">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none">
                                 <path
                                     d="M21.5306 20.4694L16.8365 15.7763C18.1971 14.1429 18.8755 12.0478 18.7307 9.92697C18.5859 7.8061 17.629 5.82271 16.0591 4.38938C14.4892 2.95605 12.4271 2.18314 10.3019 2.23144C8.17663 2.27974 6.15181 3.14553 4.64864 4.6487C3.14547 6.15187 2.27968 8.17669 2.23138 10.3019C2.18308 12.4272 2.95599 14.4893 4.38932 16.0592C5.82265 17.6291 7.80604 18.586 9.92691 18.7308C12.0478 18.8756 14.1428 18.1971 15.7762 16.8366L20.4693 21.5307C20.539 21.6003 20.6218 21.6556 20.7128 21.6933C20.8038 21.731 20.9014 21.7505 21 21.7505C21.0985 21.7505 21.1961 21.731 21.2871 21.6933C21.3782 21.6556 21.4609 21.6003 21.5306 21.5307C21.6003 21.461 21.6556 21.3783 21.6933 21.2872C21.731 21.1962 21.7504 21.0986 21.7504 21C21.7504 20.9015 21.731 20.8039 21.6933 20.7129C21.6556 20.6218 21.6003 20.5391 21.5306 20.4694ZM3.74997 10.5C3.74997 9.16501 4.14585 7.85996 4.88755 6.74993C5.62925 5.6399 6.68346 4.77474 7.91686 4.26384C9.15026 3.75295 10.5075 3.61928 11.8168 3.87973C13.1262 4.14018 14.3289 4.78306 15.2729 5.72706C16.2169 6.67106 16.8598 7.8738 17.1203 9.18317C17.3807 10.4925 17.2471 11.8497 16.7362 13.0831C16.2253 14.3165 15.3601 15.3708 14.2501 16.1125C13.14 16.8542 11.835 17.25 10.5 17.25C8.71037 17.248 6.99463 16.5363 5.72919 15.2708C4.46375 14.0054 3.75196 12.2896 3.74997 10.5Z"
-                                    fill="#098EF7" />
+                                    fill="#773EFA" />
                             </svg>
                         </div>
                     </div>
                     <!-- Suggestion Dropdown -->
-                    <div class="absolute bg-white border border-gray-200 shadow-md w-full rounded-md z-50"
+                    <div class="absolute bg-white border border-gray-200 shadow-md w-full md:rounded-3xl rounded-xl z-50"
                         id="searchSuggestions">
-                        <ul class="divide-y divide-gray-100">
-                            <li class="p-2 hover:bg-red-50 hover:text-red-500 cursor-pointer text-xs"><a href=""> Bài
-                                    viết: Cách lựa chọn
-                                    khung
-                                    ảnh đẹp</a></li>
+                        <ul class="p-3">
+                            <li class="py-2 cursor-pointer text-sm"><a href=""> Apple
+                                    <span class="text-[#FF4169] font-normal">Máy tính bảng</span> </a></li>
+                            <li class="py-2 cursor-pointer text-sm"><a href=""> Apple
+                                    <span class="text-[#FF4169] font-normal">Máy tính bảng</span> </a></li>
+                            <li class="border-dashed border-gray-300 border-b my-2"></li>
                             <li
-                                class="p-2 hover:bg-red-50 hover:text-red-500 cursor-pointer flex items-center gap-2 text-xs">
-                                <img src="images/product1.jpg" alt="Sản phẩm" class="w-14 h-14 object-cover rounded">
-                                <div>
-                                    <a href="">Khung ảnh gia đình 20x30</a>
-                                    <div class="text-red-400 mt-1">185.000 đ</div>
-                                </div>
+                                class="p-2 hover:border-gray-300 border border-transparent rounded-xl cursor-pointer  text-sm">
+                                <a href="">
+                                    <div class="flex items-center gap-2">
+                                        <img src="images/product1.jpg" alt="Sản phẩm"
+                                            class="w-14 h-14 object-cover rounded">
+                                        <div>
+                                            <h4 class="font-normal">Khung ảnh gia đình 20x30</h4>
+                                            <div class="text-orange-500 mt-1 text-xs">Xem chi tiêt</div>
+                                        </div>
+
+                                    </div>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -171,7 +178,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path
                             d="M9.75 20.25C9.75 20.5467 9.66203 20.8367 9.4972 21.0834C9.33238 21.33 9.09811 21.5223 8.82403 21.6358C8.54994 21.7494 8.24834 21.7791 7.95736 21.7212C7.66639 21.6633 7.39912 21.5204 7.18934 21.3107C6.97956 21.1009 6.8367 20.8336 6.77882 20.5426C6.72094 20.2517 6.75065 19.9501 6.86418 19.676C6.97771 19.4019 7.16997 19.1676 7.41665 19.0028C7.66332 18.838 7.95333 18.75 8.25 18.75C8.64782 18.75 9.02936 18.908 9.31066 19.1893C9.59196 19.4706 9.75 19.8522 9.75 20.25ZM18 18.75C17.7033 18.75 17.4133 18.838 17.1666 19.0028C16.92 19.1676 16.7277 19.4019 16.6142 19.676C16.5006 19.9501 16.4709 20.2517 16.5288 20.5426C16.5867 20.8336 16.7296 21.1009 16.9393 21.3107C17.1491 21.5204 17.4164 21.6633 17.7074 21.7212C17.9983 21.7791 18.2999 21.7494 18.574 21.6358C18.8481 21.5223 19.0824 21.33 19.2472 21.0834C19.412 20.8367 19.5 20.5467 19.5 20.25C19.5 19.8522 19.342 19.4706 19.0607 19.1893C18.7794 18.908 18.3978 18.75 18 18.75ZM22.4728 6.95062L20.0691 15.6019C19.9369 16.0745 19.6542 16.4911 19.2639 16.7885C18.8736 17.0859 18.397 17.2479 17.9062 17.25H8.64C8.14784 17.2498 7.66926 17.0886 7.27725 16.791C6.88523 16.4935 6.6013 16.0758 6.46875 15.6019L3.18 3.75H1.5C1.30109 3.75 1.11032 3.67098 0.96967 3.53033C0.829018 3.38968 0.75 3.19891 0.75 3C0.75 2.80109 0.829018 2.61032 0.96967 2.46967C1.11032 2.32902 1.30109 2.25 1.5 2.25H3.75C3.91397 2.24997 4.07343 2.30367 4.20398 2.40289C4.33452 2.50211 4.42895 2.64138 4.47281 2.79938L5.36156 6H21.75C21.8656 5.99998 21.9797 6.02669 22.0833 6.07805C22.1869 6.1294 22.2772 6.20401 22.3472 6.29605C22.4171 6.38809 22.4649 6.49506 22.4867 6.60861C22.5085 6.72216 22.5037 6.83922 22.4728 6.95062ZM20.7628 7.5H5.77875L7.91719 15.2006C7.96105 15.3586 8.05548 15.4979 8.18602 15.5971C8.31657 15.6963 8.47603 15.75 8.64 15.75H17.9062C18.0702 15.75 18.2297 15.6963 18.3602 15.5971C18.4908 15.4979 18.5852 15.3586 18.6291 15.2006L20.7628 7.5Z"
-                            fill="#098EF7" />
+                            fill="#773EFA" />
                     </svg>
                     <span>Giỏ hàng</span>
                 </div>
@@ -181,7 +188,7 @@
 
 
 
-    <main>
+    <main class="min-h-[40vh]">
 
         
 <!-- HOME -->
@@ -398,7 +405,7 @@
                                                 <div class="flex items-center justify-between">
                                                     <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                     <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                            class="text-slate-400">(180)</span></div>
+                                                            class="text-color-base">(180)</span></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -427,7 +434,7 @@
                                                 <div class="flex items-center justify-between">
                                                     <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                     <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                            class="text-slate-400">(180)</span></div>
+                                                            class="text-color-base">(180)</span></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -455,7 +462,7 @@
                                                 <div class="flex items-center justify-between">
                                                     <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                     <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                            class="text-slate-400">(180)</span></div>
+                                                            class="text-color-base">(180)</span></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -483,7 +490,7 @@
                                                 <div class="flex items-center justify-between">
                                                     <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                     <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                            class="text-slate-400">(180)</span></div>
+                                                            class="text-color-base">(180)</span></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -511,7 +518,7 @@
                                                 <div class="flex items-center justify-between">
                                                     <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                     <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                            class="text-slate-400">(180)</span></div>
+                                                            class="text-color-base">(180)</span></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -539,7 +546,7 @@
                                                 <div class="flex items-center justify-between">
                                                     <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                     <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                            class="text-slate-400">(180)</span></div>
+                                                            class="text-color-base">(180)</span></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -565,7 +572,7 @@
                                             <div class="flex items-center justify-between">
                                                 <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                 <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                        class="text-slate-400">(180)</span></div>
+                                                        class="text-color-base">(180)</span></div>
                                             </div>
                                         </div>
 
@@ -602,7 +609,7 @@
                         xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                         <path
                             d="M12.773 9.39804L7.14804 15.023C7.09578 15.0753 7.03373 15.1168 6.96545 15.145C6.89716 15.1733 6.82398 15.1879 6.75007 15.1879C6.67616 15.1879 6.60297 15.1733 6.53469 15.145C6.46641 15.1168 6.40436 15.0753 6.3521 15.023C6.29984 14.9708 6.25838 14.9087 6.2301 14.8404C6.20181 14.7722 6.18726 14.699 6.18726 14.6251C6.18726 14.5512 6.20181 14.478 6.2301 14.4097C6.25838 14.3414 6.29984 14.2794 6.3521 14.2271L11.5798 9.00007L6.3521 3.77304C6.24655 3.66749 6.18726 3.52434 6.18726 3.37507C6.18726 3.2258 6.24655 3.08265 6.3521 2.9771C6.45765 2.87155 6.6008 2.81226 6.75007 2.81226C6.89934 2.81226 7.04249 2.87155 7.14804 2.9771L12.773 8.6021C12.8253 8.65434 12.8668 8.71638 12.8951 8.78466C12.9234 8.85295 12.938 8.92615 12.938 9.00007C12.938 9.07399 12.9234 9.14719 12.8951 9.21547C12.8668 9.28376 12.8253 9.3458 12.773 9.39804Z"
-                            fill="#098EF7" />
+                            fill="#773EFA" />
                     </svg></a>
             </div>
 
@@ -729,7 +736,7 @@
                                                 <div class="flex items-center justify-between">
                                                     <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                     <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                            class="text-slate-400">(180)</span></div>
+                                                            class="text-color-base">(180)</span></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -759,7 +766,7 @@
                                                 <div class="flex items-center justify-between">
                                                     <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                     <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                            class="text-slate-400">(180)</span></div>
+                                                            class="text-color-base">(180)</span></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -788,7 +795,7 @@
                                                 <div class="flex items-center justify-between">
                                                     <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                     <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                            class="text-slate-400">(180)</span></div>
+                                                            class="text-color-base">(180)</span></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -817,7 +824,7 @@
                                                 <div class="flex items-center justify-between">
                                                     <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                     <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                            class="text-slate-400">(180)</span></div>
+                                                            class="text-color-base">(180)</span></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -846,7 +853,7 @@
                                                 <div class="flex items-center justify-between">
                                                     <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                     <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                            class="text-slate-400">(180)</span></div>
+                                                            class="text-color-base">(180)</span></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -875,7 +882,7 @@
                                                 <div class="flex items-center justify-between">
                                                     <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                     <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                            class="text-slate-400">(180)</span></div>
+                                                            class="text-color-base">(180)</span></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -902,7 +909,7 @@
                                             <div class="flex items-center justify-between">
                                                 <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                 <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                        class="text-slate-400">(180)</span></div>
+                                                        class="text-color-base">(180)</span></div>
                                             </div>
                                         </div>
 
@@ -960,7 +967,7 @@
                                                 <div class="flex items-center justify-between">
                                                     <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                     <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                            class="text-slate-400">(180)</span></div>
+                                                            class="text-color-base">(180)</span></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -990,7 +997,7 @@
                                                 <div class="flex items-center justify-between">
                                                     <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                     <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                            class="text-slate-400">(180)</span></div>
+                                                            class="text-color-base">(180)</span></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -1019,7 +1026,7 @@
                                                 <div class="flex items-center justify-between">
                                                     <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                     <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                            class="text-slate-400">(180)</span></div>
+                                                            class="text-color-base">(180)</span></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -1048,7 +1055,7 @@
                                                 <div class="flex items-center justify-between">
                                                     <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                     <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                            class="text-slate-400">(180)</span></div>
+                                                            class="text-color-base">(180)</span></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -1077,7 +1084,7 @@
                                                 <div class="flex items-center justify-between">
                                                     <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                     <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                            class="text-slate-400">(180)</span></div>
+                                                            class="text-color-base">(180)</span></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -1106,7 +1113,7 @@
                                                 <div class="flex items-center justify-between">
                                                     <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                     <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                            class="text-slate-400">(180)</span></div>
+                                                            class="text-color-base">(180)</span></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -1133,7 +1140,7 @@
                                             <div class="flex items-center justify-between">
                                                 <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                 <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                        class="text-slate-400">(180)</span></div>
+                                                        class="text-color-base">(180)</span></div>
                                             </div>
                                         </div>
 
@@ -1192,7 +1199,7 @@
                                                     <div class="flex items-center justify-between">
                                                         <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                         <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                                class="text-slate-400">(180)</span></div>
+                                                                class="text-color-base">(180)</span></div>
                                                     </div>
                                                 </div>
                                             </a>
@@ -1222,7 +1229,7 @@
                                                     <div class="flex items-center justify-between">
                                                         <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                         <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                                class="text-slate-400">(180)</span></div>
+                                                                class="text-color-base">(180)</span></div>
                                                     </div>
                                                 </div>
                                             </a>
@@ -1251,7 +1258,7 @@
                                                     <div class="flex items-center justify-between">
                                                         <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                         <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                                class="text-slate-400">(180)</span></div>
+                                                                class="text-color-base">(180)</span></div>
                                                     </div>
                                                 </div>
                                             </a>
@@ -1280,7 +1287,7 @@
                                                     <div class="flex items-center justify-between">
                                                         <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                         <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                                class="text-slate-400">(180)</span></div>
+                                                                class="text-color-base">(180)</span></div>
                                                     </div>
                                                 </div>
                                             </a>
@@ -1309,7 +1316,7 @@
                                                     <div class="flex items-center justify-between">
                                                         <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                         <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                                class="text-slate-400">(180)</span></div>
+                                                                class="text-color-base">(180)</span></div>
                                                     </div>
                                                 </div>
                                             </a>
@@ -1338,7 +1345,7 @@
                                                     <div class="flex items-center justify-between">
                                                         <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                         <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                                class="text-slate-400">(180)</span></div>
+                                                                class="text-color-base">(180)</span></div>
                                                     </div>
                                                 </div>
                                             </a>
@@ -1367,7 +1374,7 @@
                                                     <div class="flex items-center justify-between">
                                                         <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                         <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                                class="text-slate-400">(180)</span></div>
+                                                                class="text-color-base">(180)</span></div>
                                                     </div>
                                                 </div>
                                             </a>
@@ -1399,7 +1406,7 @@
                             xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <path
                                 d="M12.773 9.39804L7.14804 15.023C7.09578 15.0753 7.03373 15.1168 6.96545 15.145C6.89716 15.1733 6.82398 15.1879 6.75007 15.1879C6.67616 15.1879 6.60297 15.1733 6.53469 15.145C6.46641 15.1168 6.40436 15.0753 6.3521 15.023C6.29984 14.9708 6.25838 14.9087 6.2301 14.8404C6.20181 14.7722 6.18726 14.699 6.18726 14.6251C6.18726 14.5512 6.20181 14.478 6.2301 14.4097C6.25838 14.3414 6.29984 14.2794 6.3521 14.2271L11.5798 9.00007L6.3521 3.77304C6.24655 3.66749 6.18726 3.52434 6.18726 3.37507C6.18726 3.2258 6.24655 3.08265 6.3521 2.9771C6.45765 2.87155 6.6008 2.81226 6.75007 2.81226C6.89934 2.81226 7.04249 2.87155 7.14804 2.9771L12.773 8.6021C12.8253 8.65434 12.8668 8.71638 12.8951 8.78466C12.9234 8.85295 12.938 8.92615 12.938 9.00007C12.938 9.07399 12.9234 9.14719 12.8951 9.21547C12.8668 9.28376 12.8253 9.3458 12.773 9.39804Z"
-                                fill="#098EF7" />
+                                fill="#773EFA" />
                         </svg></a>
                 </div>
             </div>
@@ -1463,7 +1470,7 @@
                                             <div class="flex items-center justify-between">
                                                 <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                 <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                        class="text-slate-400">(180)</span></div>
+                                                        class="text-color-base">(180)</span></div>
                                             </div>
                                         </div>
                                     </a>
@@ -1492,7 +1499,7 @@
                                             <div class="flex items-center justify-between">
                                                 <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                 <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                        class="text-slate-400">(180)</span></div>
+                                                        class="text-color-base">(180)</span></div>
                                             </div>
                                         </div>
                                     </a>
@@ -1520,7 +1527,7 @@
                                             <div class="flex items-center justify-between">
                                                 <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                 <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                        class="text-slate-400">(180)</span></div>
+                                                        class="text-color-base">(180)</span></div>
                                             </div>
                                         </div>
                                     </a>
@@ -1548,7 +1555,7 @@
                                             <div class="flex items-center justify-between">
                                                 <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                 <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                        class="text-slate-400">(180)</span></div>
+                                                        class="text-color-base">(180)</span></div>
                                             </div>
                                         </div>
                                     </a>
@@ -1576,7 +1583,7 @@
                                             <div class="flex items-center justify-between">
                                                 <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                 <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                        class="text-slate-400">(180)</span></div>
+                                                        class="text-color-base">(180)</span></div>
                                             </div>
                                         </div>
                                     </a>
@@ -1604,7 +1611,7 @@
                                             <div class="flex items-center justify-between">
                                                 <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                 <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                        class="text-slate-400">(180)</span></div>
+                                                        class="text-color-base">(180)</span></div>
                                             </div>
                                         </div>
                                     </a>
@@ -1630,7 +1637,7 @@
                                         <div class="flex items-center justify-between">
                                             <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                             <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                    class="text-slate-400">(180)</span></div>
+                                                    class="text-color-base">(180)</span></div>
                                         </div>
                                     </div>
 
@@ -1661,7 +1668,7 @@
                         xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                         <path
                             d="M12.773 9.39804L7.14804 15.023C7.09578 15.0753 7.03373 15.1168 6.96545 15.145C6.89716 15.1733 6.82398 15.1879 6.75007 15.1879C6.67616 15.1879 6.60297 15.1733 6.53469 15.145C6.46641 15.1168 6.40436 15.0753 6.3521 15.023C6.29984 14.9708 6.25838 14.9087 6.2301 14.8404C6.20181 14.7722 6.18726 14.699 6.18726 14.6251C6.18726 14.5512 6.20181 14.478 6.2301 14.4097C6.25838 14.3414 6.29984 14.2794 6.3521 14.2271L11.5798 9.00007L6.3521 3.77304C6.24655 3.66749 6.18726 3.52434 6.18726 3.37507C6.18726 3.2258 6.24655 3.08265 6.3521 2.9771C6.45765 2.87155 6.6008 2.81226 6.75007 2.81226C6.89934 2.81226 7.04249 2.87155 7.14804 2.9771L12.773 8.6021C12.8253 8.65434 12.8668 8.71638 12.8951 8.78466C12.9234 8.85295 12.938 8.92615 12.938 9.00007C12.938 9.07399 12.9234 9.14719 12.8951 9.21547C12.8668 9.28376 12.8253 9.3458 12.773 9.39804Z"
-                            fill="#098EF7" />
+                            fill="#773EFA" />
                     </svg></a>
             </div>
             <div class="h-[1px] w-full bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500"></div>
@@ -1789,7 +1796,7 @@
                         xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                         <path
                             d="M12.773 9.39804L7.14804 15.023C7.09578 15.0753 7.03373 15.1168 6.96545 15.145C6.89716 15.1733 6.82398 15.1879 6.75007 15.1879C6.67616 15.1879 6.60297 15.1733 6.53469 15.145C6.46641 15.1168 6.40436 15.0753 6.3521 15.023C6.29984 14.9708 6.25838 14.9087 6.2301 14.8404C6.20181 14.7722 6.18726 14.699 6.18726 14.6251C6.18726 14.5512 6.20181 14.478 6.2301 14.4097C6.25838 14.3414 6.29984 14.2794 6.3521 14.2271L11.5798 9.00007L6.3521 3.77304C6.24655 3.66749 6.18726 3.52434 6.18726 3.37507C6.18726 3.2258 6.24655 3.08265 6.3521 2.9771C6.45765 2.87155 6.6008 2.81226 6.75007 2.81226C6.89934 2.81226 7.04249 2.87155 7.14804 2.9771L12.773 8.6021C12.8253 8.65434 12.8668 8.71638 12.8951 8.78466C12.9234 8.85295 12.938 8.92615 12.938 9.00007C12.938 9.07399 12.9234 9.14719 12.8951 9.21547C12.8668 9.28376 12.8253 9.3458 12.773 9.39804Z"
-                            fill="#098EF7" />
+                            fill="#773EFA" />
                     </svg></a>
             </div>
 
@@ -1821,7 +1828,7 @@
                                             <div class="flex items-center justify-between">
                                                 <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                 <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                        class="text-slate-400">(180)</span></div>
+                                                        class="text-color-base">(180)</span></div>
                                             </div>
                                         </div>
                                     </a>
@@ -1850,7 +1857,7 @@
                                             <div class="flex items-center justify-between">
                                                 <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                 <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                        class="text-slate-400">(180)</span></div>
+                                                        class="text-color-base">(180)</span></div>
                                             </div>
                                         </div>
                                     </a>
@@ -1878,7 +1885,7 @@
                                             <div class="flex items-center justify-between">
                                                 <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                 <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                        class="text-slate-400">(180)</span></div>
+                                                        class="text-color-base">(180)</span></div>
                                             </div>
                                         </div>
                                     </a>
@@ -1906,7 +1913,7 @@
                                             <div class="flex items-center justify-between">
                                                 <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                 <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                        class="text-slate-400">(180)</span></div>
+                                                        class="text-color-base">(180)</span></div>
                                             </div>
                                         </div>
                                     </a>
@@ -1934,7 +1941,7 @@
                                             <div class="flex items-center justify-between">
                                                 <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                 <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                        class="text-slate-400">(180)</span></div>
+                                                        class="text-color-base">(180)</span></div>
                                             </div>
                                         </div>
                                     </a>
@@ -1962,7 +1969,7 @@
                                             <div class="flex items-center justify-between">
                                                 <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                                 <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                        class="text-slate-400">(180)</span></div>
+                                                        class="text-color-base">(180)</span></div>
                                             </div>
                                         </div>
                                     </a>
@@ -1988,7 +1995,7 @@
                                         <div class="flex items-center justify-between">
                                             <div class="text-xs line-through text-slate-400">215.000 đ</div>
                                             <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
-                                                    class="text-slate-400">(180)</span></div>
+                                                    class="text-color-base">(180)</span></div>
                                         </div>
                                     </div>
 
@@ -2198,9 +2205,10 @@
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
-                                    d="M13.5253 4.30575C13.5508 4.21057 13.5947 4.12133 13.6547 4.04315C13.7147 3.96496 13.7894 3.89935 13.8748 3.85008C13.9601 3.8008 14.0543 3.76882 14.152 3.75596C14.2496 3.74309 14.3489 3.74961 14.4441 3.77512C15.8344 4.13789 17.103 4.86473 18.119 5.88078C19.1351 6.89684 19.8619 8.16538 20.2247 9.55575C20.2502 9.65092 20.2567 9.75018 20.2439 9.84786C20.231 9.94555 20.199 10.0397 20.1497 10.1251C20.1005 10.2104 20.0349 10.2852 19.9567 10.3451C19.8785 10.4051 19.7893 10.449 19.6941 10.4745C19.6307 10.4911 19.5655 10.4996 19.5 10.4998C19.3347 10.4998 19.1741 10.4452 19.043 10.3445C18.912 10.2438 18.8179 10.1026 18.7753 9.94293C18.4795 8.80792 17.8863 7.77235 17.0569 6.94296C16.2275 6.11356 15.1919 5.52036 14.0569 5.2245C13.9616 5.19914 13.8723 5.15525 13.794 5.09533C13.7157 5.03542 13.65 4.96066 13.6006 4.87533C13.5513 4.79 13.5192 4.69577 13.5063 4.59803C13.4933 4.5003 13.4998 4.40098 13.5253 4.30575ZM13.3069 8.2245C14.5997 8.5695 15.4303 9.40012 15.7753 10.6929C15.8179 10.8526 15.912 10.9938 16.043 11.0945C16.1741 11.1952 16.3347 11.2498 16.5 11.2498C16.5655 11.2496 16.6307 11.2411 16.6941 11.2245C16.7893 11.199 16.8785 11.1551 16.9567 11.0951C17.0349 11.0352 17.1005 10.9604 17.1497 10.8751C17.199 10.7897 17.231 10.6955 17.2439 10.5979C17.2567 10.5002 17.2502 10.4009 17.2247 10.3057C16.7447 8.5095 15.4903 7.25512 13.6941 6.77512C13.5019 6.72378 13.2971 6.75089 13.1249 6.85049C12.9527 6.95009 12.8271 7.11402 12.7758 7.30622C12.7244 7.49842 12.7516 7.70314 12.8512 7.87535C12.9508 8.04756 13.1147 8.17315 13.3069 8.2245ZM20.9888 17.1636C20.8216 18.4339 20.1977 19.6 19.2337 20.4439C18.2696 21.2879 17.0313 21.7521 15.75 21.7498C8.30626 21.7498 2.25001 15.6936 2.25001 8.24981C2.24771 6.96852 2.7119 5.73021 3.55588 4.76615C4.39986 3.80209 5.56592 3.17822 6.83626 3.01106C7.1575 2.97184 7.4828 3.03756 7.76362 3.19841C8.04444 3.35926 8.2657 3.60662 8.39438 3.90356L10.3744 8.32387V8.33512C10.4729 8.56242 10.5136 8.81059 10.4928 9.05744C10.472 9.3043 10.3904 9.54217 10.2553 9.74981C10.2384 9.77512 10.2206 9.79856 10.2019 9.822L8.25001 12.1357C8.9522 13.5626 10.4447 15.042 11.8903 15.7461L14.1722 13.8045C14.1946 13.7857 14.2181 13.7681 14.2425 13.752C14.45 13.6136 14.6887 13.5292 14.937 13.5062C15.1853 13.4833 15.4354 13.5227 15.6647 13.6207L15.6769 13.6264L20.0934 15.6054C20.3909 15.7337 20.6389 15.9547 20.8003 16.2356C20.9616 16.5164 21.0278 16.842 20.9888 17.1636ZM19.5 16.9761C19.5 16.9761 19.4934 16.9761 19.4897 16.9761L15.0834 15.0026L12.8006 16.9442C12.7785 16.9629 12.7553 16.9805 12.7313 16.9967C12.5154 17.1407 12.2659 17.2262 12.0071 17.245C11.7483 17.2637 11.489 17.215 11.2547 17.1036C9.49876 16.2551 7.74845 14.5179 6.89907 12.7807C6.7866 12.5481 6.73613 12.2904 6.75255 12.0325C6.76898 11.7746 6.85174 11.5254 6.99282 11.3089C7.00872 11.2835 7.02659 11.2593 7.04626 11.2367L9.00001 8.92012L7.03126 4.51387C7.03089 4.51013 7.03089 4.50636 7.03126 4.50262C6.12212 4.62122 5.28739 5.06715 4.68339 5.75692C4.0794 6.44669 3.74755 7.33297 3.75001 8.24981C3.75348 11.4313 5.01888 14.4816 7.26856 16.7313C9.51825 18.9809 12.5685 20.2463 15.75 20.2498C16.6663 20.253 17.5523 19.9223 18.2425 19.3196C18.9327 18.7169 19.3797 17.8835 19.5 16.9751V16.9761Z"
-                                    fill="#343E7A" />
+                                    d="M21 4.5H3C2.80109 4.5 2.61032 4.57902 2.46967 4.71967C2.32902 4.86032 2.25 5.05109 2.25 5.25V18C2.25 18.3978 2.40804 18.7794 2.68934 19.0607C2.97064 19.342 3.35218 19.5 3.75 19.5H20.25C20.6478 19.5 21.0294 19.342 21.3107 19.0607C21.592 18.7794 21.75 18.3978 21.75 18V5.25C21.75 5.05109 21.671 4.86032 21.5303 4.71967C21.3897 4.57902 21.1989 4.5 21 4.5ZM12 12.4828L4.92844 6H19.0716L12 12.4828ZM9.25406 12L3.75 17.0447V6.95531L9.25406 12ZM10.3641 13.0172L11.4891 14.0531C11.6274 14.1801 11.8084 14.2506 11.9963 14.2506C12.1841 14.2506 12.3651 14.1801 12.5034 14.0531L13.6284 13.0172L19.0659 18H4.92844L10.3641 13.0172ZM14.7459 12L20.25 6.95438V17.0456L14.7459 12Z"
+                                    fill="#773EFA" />
                             </svg>
+
                         </span>
 
                         <input type="email" placeholder="Nhập email của bạn"
@@ -2245,7 +2253,7 @@
                             <g clip-path="url(#clip0_467_1293)">
                                 <path
                                     d="M21.9814 3.62394e-07H3.71895C3.27642 -0.000204889 2.8382 0.086779 2.4293 0.255983C2.0204 0.425186 1.64885 0.673294 1.33587 0.986132C1.02289 1.29897 0.774606 1.67041 0.605213 2.07922C0.43582 2.48804 0.348633 2.92623 0.348633 3.36875L0.348633 21.6313C0.348633 22.0738 0.43582 22.512 0.605213 22.9208C0.774606 23.3296 1.02289 23.701 1.33587 24.0139C1.64885 24.3267 2.0204 24.5748 2.4293 24.744C2.8382 24.9132 3.27642 25.0002 3.71895 25H12.726L12.7416 16.0664H10.4205C10.2755 16.0664 10.1364 16.0088 10.0338 15.9062C9.93125 15.8037 9.87363 15.6646 9.87363 15.5195L9.8627 12.6398C9.8627 12.4948 9.92031 12.3557 10.0229 12.2531C10.1254 12.1506 10.2645 12.093 10.4096 12.093H12.726V9.30859C12.726 6.07969 14.6979 4.32109 17.5783 4.32109H19.9424C20.0874 4.32109 20.2265 4.37871 20.3291 4.48127C20.4316 4.58383 20.4893 4.72293 20.4893 4.86797V7.29766C20.4893 7.4427 20.4316 7.5818 20.3291 7.68436C20.2265 7.78691 20.0874 7.84453 19.9424 7.84453H18.4916C16.9252 7.84453 16.6221 8.58906 16.6221 9.68125V12.0898H20.0643C20.1419 12.0893 20.2189 12.1053 20.2899 12.1368C20.3609 12.1683 20.4244 12.2145 20.4761 12.2725C20.5279 12.3304 20.5667 12.3987 20.59 12.4729C20.6132 12.547 20.6205 12.6252 20.6111 12.7023L20.2705 15.5828C20.2547 15.7165 20.1902 15.8396 20.0893 15.9287C19.9884 16.0178 19.8582 16.0666 19.7236 16.0656H16.6377L16.6221 25H21.9814C22.8746 24.9996 23.7311 24.6445 24.3625 24.0128C24.9939 23.381 25.3486 22.5244 25.3486 21.6313V3.36875C25.3486 2.47557 24.9939 1.61896 24.3625 0.987237C23.7311 0.355518 22.8746 0.000414638 21.9814 3.62394e-07Z"
-                                    fill="#098EF7" />
+                                    fill="#5C758E" />
                             </g>
                             <defs>
                                 <clipPath id="clip0_467_1293">
@@ -2259,13 +2267,13 @@
                             <g clip-path="url(#clip0_467_1298)">
                                 <path
                                     d="M17.5376 0H8.1626C6.09059 0 4.10345 0.8231 2.63833 2.28823C1.1732 3.75336 0.350098 5.7405 0.350098 7.8125L0.350098 17.1875C0.350098 19.2595 1.1732 21.2466 2.63833 22.7118C4.10345 24.1769 6.09059 25 8.1626 25H17.5376C19.6096 25 21.5967 24.1769 23.0619 22.7118C24.527 21.2466 25.3501 19.2595 25.3501 17.1875V7.8125C25.3501 5.7405 24.527 3.75336 23.0619 2.28823C21.5967 0.8231 19.6096 0 17.5376 0ZM23.0063 17.1875C23.0047 18.6374 22.428 20.0274 21.4028 21.0527C20.3775 22.0779 18.9875 22.6546 17.5376 22.6562H8.1626C6.7127 22.6546 5.32267 22.0779 4.29743 21.0527C3.2722 20.0274 2.6955 18.6374 2.69385 17.1875V7.8125C2.6955 6.36261 3.2722 4.97257 4.29743 3.94734C5.32267 2.92211 6.7127 2.3454 8.1626 2.34375H17.5376C18.9875 2.3454 20.3775 2.92211 21.4028 3.94734C22.428 4.97257 23.0047 6.36261 23.0063 7.8125V17.1875Z"
-                                    fill="#098EF7" />
+                                    fill="#5C758E" />
                                 <path
                                     d="M12.8501 6.25C11.614 6.25 10.4056 6.61655 9.37778 7.30331C8.34998 7.99007 7.5489 8.96619 7.07585 10.1082C6.60281 11.2503 6.47903 12.5069 6.72019 13.7193C6.96135 14.9317 7.5566 16.0453 8.43068 16.9194C9.30476 17.7935 10.4184 18.3888 11.6308 18.6299C12.8432 18.8711 14.0998 18.7473 15.2419 18.2742C16.3839 17.8012 17.36 17.0001 18.0468 15.9723C18.7336 14.9445 19.1001 13.7361 19.1001 12.5C19.1001 10.8424 18.4416 9.25268 17.2695 8.08058C16.0974 6.90848 14.5077 6.25 12.8501 6.25ZM12.8501 16.4062C12.0775 16.4062 11.3223 16.1772 10.6799 15.7479C10.0375 15.3187 9.53685 14.7086 9.24119 13.9949C8.94554 13.2811 8.86818 12.4957 9.01891 11.7379C9.16963 10.9802 9.54166 10.2842 10.088 9.73786C10.6343 9.19156 11.3303 8.81953 12.088 8.6688C12.8458 8.51808 13.6312 8.59544 14.345 8.89109C15.0587 9.18675 15.6688 9.68743 16.098 10.3298C16.5273 10.9722 16.7564 11.7274 16.7564 12.5C16.7549 13.5356 16.3429 14.5283 15.6106 15.2605C14.8784 15.9928 13.8857 16.4048 12.8501 16.4062Z"
-                                    fill="#098EF7" />
+                                    fill="#5C758E" />
                                 <path
                                     d="M19.5689 7.39512C20.4603 7.39512 21.183 6.67248 21.183 5.78105C21.183 4.88963 20.4603 4.16699 19.5689 4.16699C18.6775 4.16699 17.9548 4.88963 17.9548 5.78105C17.9548 6.67248 18.6775 7.39512 19.5689 7.39512Z"
-                                    fill="#098EF7" />
+                                    fill="#5C758E" />
                             </g>
                             <defs>
                                 <clipPath id="clip0_467_1298">
@@ -2279,22 +2287,22 @@
                             <g clip-path="url(#clip0_467_1305)">
                                 <path
                                     d="M20.8256 13.0464C20.7125 12.5164 20.4313 12.0371 20.0238 11.6798C19.6261 11.3203 19.1259 11.0944 18.5932 11.0337C16.8819 10.8498 14.3008 10.7578 10.85 10.7578C7.39929 10.7578 4.82296 10.8498 3.12106 11.0337C2.58576 11.0916 2.08262 11.3178 1.68407 11.6798C1.2791 12.0404 0.996193 12.518 0.874472 13.0464C0.588736 14.6403 0.467273 16.2594 0.511993 17.8781C0.463765 19.497 0.585255 21.1164 0.874472 22.7099C0.988042 23.2399 1.26946 23.7191 1.67696 24.0765C2.0728 24.4366 2.57428 24.6593 3.10685 24.7116C5.68124 24.941 8.26571 25.0378 10.85 25.0017C13.4342 25.0378 16.0184 24.941 18.5926 24.7116C19.1228 24.6597 19.6217 24.4368 20.0141 24.0765C20.4189 23.7158 20.7016 23.2383 20.823 22.7099C21.109 21.116 21.2307 19.4969 21.1862 17.8781C21.2349 16.2594 21.1141 14.64 20.8256 13.0464ZM6.41696 14.4407H4.92441V22.2951H3.52618V14.4407H2.06141V13.1433H6.41438V14.4407H6.41696ZM10.1839 22.2951H8.9388V21.5494C8.77318 21.7805 8.56125 21.9745 8.31651 22.1191C8.07177 22.2637 7.7996 22.3558 7.51732 22.3894C7.34418 22.4115 7.16875 22.3727 7.02114 22.2795C6.87352 22.1864 6.76294 22.0448 6.70836 21.879C6.62066 21.5505 6.58298 21.2107 6.59658 20.871V15.4739H7.83844V20.4982C7.83284 20.6594 7.83759 20.8209 7.85266 20.9815C7.88066 21.1749 7.97822 21.2716 8.14535 21.2716C8.39648 21.2716 8.66161 21.0778 8.94074 20.6901V15.472H10.1826V22.2912L10.1839 22.2951ZM14.9271 20.252C14.949 20.7159 14.9069 21.1805 14.8018 21.6328C14.7538 21.8572 14.6274 22.0572 14.4453 22.1968C14.2632 22.3364 14.0372 22.4066 13.808 22.3946C13.5487 22.3733 13.2975 22.2941 13.0729 22.1627C12.8483 22.0313 12.6561 21.8511 12.5106 21.6354V22.2977H11.2694V13.1433H12.5106V16.1388C12.6549 15.9231 12.8471 15.7436 13.0721 15.6144C13.2971 15.4852 13.549 15.4097 13.808 15.3938C14.0384 15.3841 14.2646 15.4568 14.4462 15.5989C14.6277 15.741 14.7526 15.9432 14.7985 16.1691C14.9045 16.6165 14.9467 17.0765 14.9239 17.5357L14.9271 20.252ZM19.6439 19.12H17.142V20.3212C17.142 20.9561 17.3559 21.2735 17.7837 21.2735C17.9234 21.2808 18.0603 21.2327 18.1648 21.1397C18.2693 21.0467 18.3329 20.9163 18.3419 20.7767C18.3685 20.4975 18.3777 20.217 18.3697 19.9367H19.6393V20.1163C19.6478 20.3835 19.6385 20.6509 19.6115 20.9169C19.5762 21.1854 19.4757 21.4411 19.3189 21.6619C19.1519 21.9034 18.9254 22.0977 18.6613 22.226C18.3972 22.3544 18.1045 22.4125 17.8114 22.3946C17.5222 22.4072 17.2342 22.3498 16.9719 22.2273C16.7095 22.1048 16.4807 21.9208 16.3047 21.6909C15.9976 21.2162 15.8554 20.6535 15.9002 20.0898V17.6992C15.8556 17.1378 15.9914 16.5768 16.2879 16.0981C16.468 15.878 16.6947 15.7006 16.9517 15.5789C17.2087 15.4571 17.4896 15.3939 17.774 15.3939C18.0584 15.3939 18.3392 15.4571 18.5962 15.5789C18.8532 15.7006 19.0799 15.878 19.2601 16.0981C19.5482 16.5799 19.6798 17.1393 19.6367 17.6992V19.1206L19.6439 19.12Z"
-                                    fill="#098EF7" />
+                                    fill="#5C758E" />
                                 <path
                                     d="M13.1385 16.4619C13.02 16.4684 12.9039 16.4986 12.7973 16.5508C12.6906 16.6029 12.5955 16.676 12.5176 16.7656V20.9202C12.5954 21.0098 12.6905 21.0829 12.7972 21.1351C12.9039 21.1873 13.0199 21.2175 13.1385 21.2239C13.4973 21.2239 13.677 20.9157 13.6774 20.2993V17.3872C13.6774 16.7703 13.4978 16.4619 13.1385 16.4619Z"
-                                    fill="#098EF7" />
+                                    fill="#5C758E" />
                                 <path
                                     d="M17.8055 16.4326C17.3915 16.4326 17.1846 16.7453 17.1846 17.3708V18.0059H18.4245V17.374C18.4245 16.7464 18.2182 16.4326 17.8055 16.4326Z"
-                                    fill="#098EF7" />
+                                    fill="#5C758E" />
                                 <path
                                     d="M5.59706 5.5076V9.24868H6.97719V5.5076L8.64743 0H7.23952L6.30134 3.6306L5.32052 0H3.85962C4.11807 0.7732 4.41723 1.6347 4.75709 2.58451C5.10018 3.53963 5.38076 4.51605 5.59706 5.5076Z"
-                                    fill="#098EF7" />
+                                    fill="#5C758E" />
                                 <path
                                     d="M10.5567 9.34581C10.84 9.35992 11.1222 9.30285 11.3778 9.17983C11.6333 9.05681 11.8539 8.87174 12.0195 8.64153C12.3169 8.15285 12.4525 7.58286 12.4072 7.01264V4.59871C12.4514 4.03287 12.3157 3.46754 12.0195 2.98338C11.8456 2.76384 11.6242 2.58648 11.372 2.46455C11.1198 2.34263 10.8433 2.2793 10.5632 2.2793C10.2831 2.2793 10.0066 2.34263 9.75435 2.46455C9.50216 2.58648 9.28079 2.76384 9.10681 2.98338C8.81059 3.46752 8.67491 4.03287 8.71912 4.59871V7.01458C8.67649 7.58459 8.81196 8.15377 9.10681 8.64347C9.27199 8.87084 9.49075 9.05392 9.74369 9.17644C9.99662 9.29896 10.2759 9.35714 10.5567 9.34581ZM9.96292 4.34865C9.96292 3.71372 10.1608 3.39626 10.5567 3.39626C10.9526 3.39626 11.1505 3.71372 11.1505 4.34865V7.24783C11.1505 7.89396 10.9526 8.21702 10.5567 8.21702C10.1608 8.21702 9.96292 7.89396 9.96292 7.24783V4.34865Z"
-                                    fill="#098EF7" />
+                                    fill="#5C758E" />
                                 <path
                                     d="M14.4128 9.345C14.6975 9.31323 14.9719 9.22027 15.2172 9.0725C15.4626 8.92473 15.6731 8.72564 15.8343 8.48888V9.24808H17.0904V2.36035H15.8349V7.61984C15.5588 8.0157 15.2965 8.21363 15.0479 8.21363C14.8821 8.21363 14.7854 8.1124 14.7578 7.90995C14.7425 7.74933 14.738 7.58787 14.7443 7.42664V2.361H13.4895V7.79946C13.4754 8.14762 13.5126 8.49596 13.6 8.83327C13.657 8.9983 13.7687 9.13894 13.9165 9.23198C14.0642 9.32501 14.2393 9.36488 14.4128 9.345Z"
-                                    fill="#098EF7" />
+                                    fill="#5C758E" />
                             </g>
                             <defs>
                                 <clipPath id="clip0_467_1305">
