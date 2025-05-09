@@ -22,7 +22,9 @@ body {
   
   background: var(--BG, linear-gradient(180deg, #FFF 0%, #F1F5F9 25.96%)) !important;
 }
-
+main{
+  min-height: 40vh;
+}
 $color-base: #773EFA;
 
 .text-color-base {
