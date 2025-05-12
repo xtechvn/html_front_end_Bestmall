@@ -5,13 +5,24 @@
 <!-- /build:head2 -->
 <!-- build:content -->
 <div class="max-w-[1230px] mx-auto px-[15px]">
-    <a href="#login-popup">
-        Đăng nhập - Đăng ký
-    </a>
+    <a href="#login-popup">Đăng nhập - Đăng ký</a>
+    <br />
+    <a href="#voucher-popup">Chọn voucher</a>
+    <br />
+    <a href="#giaohang-popup">Chọn hình thức giao hàng</a>
+    <br />
+    <a href="#thanhtoan-popup">Chọn hình thức thanh toán</a>
+    <br />
+    <a href="#dieukien-popup">Điệu kiện áp dụng</a>
+    <br />
+    <a href="#diachi-popup">Địa chỉ</a>
+    <br />
+    <a href="#thongtin-popup">thông tin giao hàng</a>
+    <br />
     <!-- Popup 1 -->
     <div id="login-popup" class="popup fixed inset-0 bg-black/50 bg-opacity-50 hidden overflow-x-hidden z-999">
         <div class="flex justify-center md:items-center h-full">
-            <div class="bg-white p-6 md:rounded-3xl shadow-lg max-w-2xl w-full mx-auto  relative">
+            <div class="popup-content bg-white p-6 md:rounded-3xl shadow-lg max-w-3xl w-full mx-auto  relative">
 
                 <span class="closePopup absolute right-2 top-2 cursor-pointer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
@@ -193,6 +204,268 @@
                             class="text-blue-400">điều kiện sử dụng và chính sách của Chúng tôi.</a>
                     </p>
                 </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="voucher-popup" class="popup fixed inset-0 bg-black/50 bg-opacity-50 hidden overflow-x-hidden z-999">
+        <div class="flex justify-center md:items-center h-full">
+            <div class="popup-content bg-white p-6 md:rounded-3xl shadow-lg max-w-3xl w-full mx-auto  relative">
+
+                <span class="closePopup absolute right-2 top-2 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                        <path
+                            d="M19.281 18.7193C19.3507 18.789 19.406 18.8717 19.4437 18.9628C19.4814 19.0538 19.5008 19.1514 19.5008 19.2499C19.5008 19.3485 19.4814 19.4461 19.4437 19.5371C19.406 19.6281 19.3507 19.7109 19.281 19.7806C19.2114 19.8502 19.1286 19.9055 19.0376 19.9432C18.9465 19.9809 18.849 20.0003 18.7504 20.0003C18.6519 20.0003 18.5543 19.9809 18.4632 19.9432C18.3722 19.9055 18.2895 19.8502 18.2198 19.7806L12.0004 13.5602L5.78104 19.7806C5.64031 19.9213 5.44944 20.0003 5.25042 20.0003C5.05139 20.0003 4.86052 19.9213 4.71979 19.7806C4.57906 19.6398 4.5 19.449 4.5 19.2499C4.5 19.0509 4.57906 18.86 4.71979 18.7193L10.9401 12.4999L4.71979 6.28055C4.57906 6.13982 4.5 5.94895 4.5 5.74993C4.5 5.55091 4.57906 5.36003 4.71979 5.2193C4.86052 5.07857 5.05139 4.99951 5.25042 4.99951C5.44944 4.99951 5.64031 5.07857 5.78104 5.2193L12.0004 11.4396L18.2198 5.2193C18.3605 5.07857 18.5514 4.99951 18.7504 4.99951C18.9494 4.99951 19.1403 5.07857 19.281 5.2193C19.4218 5.36003 19.5008 5.55091 19.5008 5.74993C19.5008 5.94895 19.4218 6.13982 19.281 6.28055L13.0607 12.4999L19.281 18.7193Z"
+                            fill="#2A3262" />
+                    </svg>
+                </span>
+                <!-- header -->
+                <h4 class="text-center text-xl text-color-base mb-3">Chọn hình thức giao hàng</h4>
+            </div>
+        </div>
+    </div>
+
+    <div id="giaohang-popup" class="popup fixed inset-0 bg-black/50 bg-opacity-50 hidden overflow-x-hidden z-999">
+        <div class="flex justify-center md:items-center h-full">
+            <div class="popup-content bg-white p-6 md:rounded-3xl shadow-lg max-w-3xl w-full mx-auto  relative">
+
+                <span class="closePopup absolute right-2 top-2 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                        <path
+                            d="M19.281 18.7193C19.3507 18.789 19.406 18.8717 19.4437 18.9628C19.4814 19.0538 19.5008 19.1514 19.5008 19.2499C19.5008 19.3485 19.4814 19.4461 19.4437 19.5371C19.406 19.6281 19.3507 19.7109 19.281 19.7806C19.2114 19.8502 19.1286 19.9055 19.0376 19.9432C18.9465 19.9809 18.849 20.0003 18.7504 20.0003C18.6519 20.0003 18.5543 19.9809 18.4632 19.9432C18.3722 19.9055 18.2895 19.8502 18.2198 19.7806L12.0004 13.5602L5.78104 19.7806C5.64031 19.9213 5.44944 20.0003 5.25042 20.0003C5.05139 20.0003 4.86052 19.9213 4.71979 19.7806C4.57906 19.6398 4.5 19.449 4.5 19.2499C4.5 19.0509 4.57906 18.86 4.71979 18.7193L10.9401 12.4999L4.71979 6.28055C4.57906 6.13982 4.5 5.94895 4.5 5.74993C4.5 5.55091 4.57906 5.36003 4.71979 5.2193C4.86052 5.07857 5.05139 4.99951 5.25042 4.99951C5.44944 4.99951 5.64031 5.07857 5.78104 5.2193L12.0004 11.4396L18.2198 5.2193C18.3605 5.07857 18.5514 4.99951 18.7504 4.99951C18.9494 4.99951 19.1403 5.07857 19.281 5.2193C19.4218 5.36003 19.5008 5.55091 19.5008 5.74993C19.5008 5.94895 19.4218 6.13982 19.281 6.28055L13.0607 12.4999L19.281 18.7193Z"
+                            fill="#2A3262" />
+                    </svg>
+                </span>
+
+                <!-- header -->
+                <h4 class="text-center text-xl text-color-base mb-3">Chọn hình thức giao hàng</h4>
+                <!-- Accordion Sections -->
+                <div class="accordion-ship" id="accordion">
+                    <div class="group pb-3">
+                        <div class="font-medium cursor-pointer toggle text-md flex justify-between items-center">GIAO
+                            HÀNG NHANH
+                            <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </div>
+                        <div class="panel mt-2  hidden max-h-[400px] overflow-y-auto scrollbar-hide">
+                            <!-- Item được chọn -->
+                            <div
+                                class="flex justify-between items-center bg-gradient-to-r from-cyan-50 to-cyan-100 border-l-[3px] border-[#00CFE8] px-4 py-2 rounded">
+                                <div>
+                                    <p class="font-medium text-black">Giao nhanh</p>
+                                    <p class="text-sm text-gray-500">Đảm bảo nhận hàng từ 1 tháng 11 – 4 tháng 11</p>
+                                </div>
+                                <span class="text-[#FF3D71] font-medium">32.800 đ</span>
+                            </div>
+
+                            <!-- Item chưa chọn -->
+                            <div
+                                class="flex justify-between items-center px-4 py-2 cursor-pointer hover:bg-gray-50 transition">
+                                <div>
+                                    <p class="font-medium text-black">Giao hoả tốc</p>
+                                    <p class="text-sm text-gray-500">Đảm bảo nhận hàng sau 2h</p>
+                                </div>
+                                <span class="text-[#FF3D71] font-medium">68.800 đ</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group pb-3">
+                        <div class="font-medium cursor-pointer toggle text-md flex justify-between items-center">VIETTEL
+                            POST
+                            <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </div>
+                        <div class="panel mt-2  hidden max-h-[400px] overflow-y-auto scrollbar-hide">
+                            <div
+                                class="flex justify-between items-center bg-gradient-to-r from-cyan-50 to-cyan-100 border-l-[3px] border-[#00CFE8] px-4 py-2 rounded">
+                                <div>
+                                    <p class="font-medium text-black">Giao nhanh</p>
+                                    <p class="text-sm text-gray-500">Đảm bảo nhận hàng từ 1 tháng 11 – 4 tháng 11</p>
+                                </div>
+                                <span class="text-[#FF3D71] font-medium">32.800 đ</span>
+                            </div>
+
+                            <!-- Item chưa chọn -->
+                            <div
+                                class="flex justify-between items-center px-4 py-2 cursor-pointer hover:bg-gray-50 transition">
+                                <div>
+                                    <p class="font-medium text-black">Giao hoả tốc</p>
+                                    <p class="text-sm text-gray-500">Đảm bảo nhận hàng sau 2h</p>
+                                </div>
+                                <span class="text-[#FF3D71] font-medium">68.800 đ</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+              
+
+                <!-- Footer -->
+                <div class="flex justify-between items-center mt-4 gap-3">
+                    <button
+                        class="border border-blue-500 px-6 py-2 text-blue-500 rounded-full cursor-pointer hover:opacity-80 w-full">Trở
+                        lại</button>
+                    <button
+                        class="bg-blue-500 px-6 py-2 text-white rounded-full cursor-pointer hover:opacity-80 w-full">Xác
+                        nhận</button>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div id="thanhtoan-popup" class="popup fixed inset-0 bg-black/50 bg-opacity-50 hidden overflow-x-hidden z-999">
+        <div class="flex justify-center md:items-center h-full">
+            <div class="popup-content bg-white p-6 md:rounded-3xl shadow-lg max-w-3xl w-full mx-auto  relative">
+
+                <span class="closePopup absolute right-2 top-2 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                        <path
+                            d="M19.281 18.7193C19.3507 18.789 19.406 18.8717 19.4437 18.9628C19.4814 19.0538 19.5008 19.1514 19.5008 19.2499C19.5008 19.3485 19.4814 19.4461 19.4437 19.5371C19.406 19.6281 19.3507 19.7109 19.281 19.7806C19.2114 19.8502 19.1286 19.9055 19.0376 19.9432C18.9465 19.9809 18.849 20.0003 18.7504 20.0003C18.6519 20.0003 18.5543 19.9809 18.4632 19.9432C18.3722 19.9055 18.2895 19.8502 18.2198 19.7806L12.0004 13.5602L5.78104 19.7806C5.64031 19.9213 5.44944 20.0003 5.25042 20.0003C5.05139 20.0003 4.86052 19.9213 4.71979 19.7806C4.57906 19.6398 4.5 19.449 4.5 19.2499C4.5 19.0509 4.57906 18.86 4.71979 18.7193L10.9401 12.4999L4.71979 6.28055C4.57906 6.13982 4.5 5.94895 4.5 5.74993C4.5 5.55091 4.57906 5.36003 4.71979 5.2193C4.86052 5.07857 5.05139 4.99951 5.25042 4.99951C5.44944 4.99951 5.64031 5.07857 5.78104 5.2193L12.0004 11.4396L18.2198 5.2193C18.3605 5.07857 18.5514 4.99951 18.7504 4.99951C18.9494 4.99951 19.1403 5.07857 19.281 5.2193C19.4218 5.36003 19.5008 5.55091 19.5008 5.74993C19.5008 5.94895 19.4218 6.13982 19.281 6.28055L13.0607 12.4999L19.281 18.7193Z"
+                            fill="#2A3262" />
+                    </svg>
+                </span>
+                <!-- header -->
+                <h4 class="text-center text-xl text-color-base mb-3">Chọn hình thức giao hàng</h4>
+            </div>
+        </div>
+    </div>
+
+    <div id="dieukien-popup" class="popup fixed inset-0 bg-black/50 bg-opacity-50 hidden overflow-x-hidden z-999">
+        <div class="flex justify-center md:items-center h-full">
+            <div class="popup-content bg-white p-6 md:rounded-3xl shadow-lg max-w-3xl w-full mx-auto  relative">
+
+                <span class="closePopup absolute right-2 top-2 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                        <path
+                            d="M19.281 18.7193C19.3507 18.789 19.406 18.8717 19.4437 18.9628C19.4814 19.0538 19.5008 19.1514 19.5008 19.2499C19.5008 19.3485 19.4814 19.4461 19.4437 19.5371C19.406 19.6281 19.3507 19.7109 19.281 19.7806C19.2114 19.8502 19.1286 19.9055 19.0376 19.9432C18.9465 19.9809 18.849 20.0003 18.7504 20.0003C18.6519 20.0003 18.5543 19.9809 18.4632 19.9432C18.3722 19.9055 18.2895 19.8502 18.2198 19.7806L12.0004 13.5602L5.78104 19.7806C5.64031 19.9213 5.44944 20.0003 5.25042 20.0003C5.05139 20.0003 4.86052 19.9213 4.71979 19.7806C4.57906 19.6398 4.5 19.449 4.5 19.2499C4.5 19.0509 4.57906 18.86 4.71979 18.7193L10.9401 12.4999L4.71979 6.28055C4.57906 6.13982 4.5 5.94895 4.5 5.74993C4.5 5.55091 4.57906 5.36003 4.71979 5.2193C4.86052 5.07857 5.05139 4.99951 5.25042 4.99951C5.44944 4.99951 5.64031 5.07857 5.78104 5.2193L12.0004 11.4396L18.2198 5.2193C18.3605 5.07857 18.5514 4.99951 18.7504 4.99951C18.9494 4.99951 19.1403 5.07857 19.281 5.2193C19.4218 5.36003 19.5008 5.55091 19.5008 5.74993C19.5008 5.94895 19.4218 6.13982 19.281 6.28055L13.0607 12.4999L19.281 18.7193Z"
+                            fill="#2A3262" />
+                    </svg>
+                </span>
+                <!-- header -->
+                <h4 class="text-center text-xl text-color-base mb-3">Chọn hình thức giao hàng</h4>
+            </div>
+        </div>
+    </div>
+
+    <div id="diachi-popup" class="popup fixed inset-0 bg-black/50 bg-opacity-50 hidden overflow-x-hidden z-999">
+        <div class="flex justify-center md:items-center h-full">
+            <div class="popup-content bg-white p-6 md:rounded-3xl shadow-lg max-w-3xl w-full mx-auto  relative">
+                <span class="closePopup absolute right-2 top-2 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                        <path
+                            d="M19.281 18.7193C19.3507 18.789 19.406 18.8717 19.4437 18.9628C19.4814 19.0538 19.5008 19.1514 19.5008 19.2499C19.5008 19.3485 19.4814 19.4461 19.4437 19.5371C19.406 19.6281 19.3507 19.7109 19.281 19.7806C19.2114 19.8502 19.1286 19.9055 19.0376 19.9432C18.9465 19.9809 18.849 20.0003 18.7504 20.0003C18.6519 20.0003 18.5543 19.9809 18.4632 19.9432C18.3722 19.9055 18.2895 19.8502 18.2198 19.7806L12.0004 13.5602L5.78104 19.7806C5.64031 19.9213 5.44944 20.0003 5.25042 20.0003C5.05139 20.0003 4.86052 19.9213 4.71979 19.7806C4.57906 19.6398 4.5 19.449 4.5 19.2499C4.5 19.0509 4.57906 18.86 4.71979 18.7193L10.9401 12.4999L4.71979 6.28055C4.57906 6.13982 4.5 5.94895 4.5 5.74993C4.5 5.55091 4.57906 5.36003 4.71979 5.2193C4.86052 5.07857 5.05139 4.99951 5.25042 4.99951C5.44944 4.99951 5.64031 5.07857 5.78104 5.2193L12.0004 11.4396L18.2198 5.2193C18.3605 5.07857 18.5514 4.99951 18.7504 4.99951C18.9494 4.99951 19.1403 5.07857 19.281 5.2193C19.4218 5.36003 19.5008 5.55091 19.5008 5.74993C19.5008 5.94895 19.4218 6.13982 19.281 6.28055L13.0607 12.4999L19.281 18.7193Z"
+                            fill="#2A3262" />
+                    </svg>
+                </span>
+                <!-- content -->
+                <div class="space-y-4 mt-3">
+                    <div class="flex justify-end items-center">
+                        <button
+                            class="text-sm border border-purple-500 text-purple-600 px-3 py-1 rounded-full hover:bg-purple-100 flex items-center gap-1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21 12C21 12.1989 20.921 12.3897 20.7803 12.5303C20.6397 12.671 20.4489 12.75 20.25 12.75H12.75V20.25C12.75 20.4489 12.671 20.6397 12.5303 20.7803C12.3897 20.921 12.1989 21 12 21C11.8011 21 11.6103 20.921 11.4697 20.7803C11.329 20.6397 11.25 20.4489 11.25 20.25V12.75H3.75C3.55109 12.75 3.36032 12.671 3.21967 12.5303C3.07902 12.3897 3 12.1989 3 12C3 11.8011 3.07902 11.6103 3.21967 11.4697C3.36032 11.329 3.55109 11.25 3.75 11.25H11.25V3.75C11.25 3.55109 11.329 3.36032 11.4697 3.21967C11.6103 3.07902 11.8011 3 12 3C12.1989 3 12.3897 3.07902 12.5303 3.21967C12.671 3.36032 12.75 3.55109 12.75 3.75V11.25H20.25C20.4489 11.25 20.6397 11.329 20.7803 11.4697C20.921 11.6103 21 11.8011 21 12Z"
+                                    fill="#773EFA" />
+                            </svg>
+                            Thêm địa chỉ mới
+                        </button>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        <!-- Mỗi địa chỉ -->
+                        <label
+                            class="address-item rounded-2xl border border-gray-100 cursor-pointer transition-all duration-200 relative">
+                            <div class="p-3 flex gap-2 items-start">
+                                <div class="relative">
+                                    <input type="radio" name="address" class="radio-custom mt-1" />
+                                </div>
+                                <div class="flex flex-col text-slate-500">
+                                    <span class="font-medium text-gray-900 mb-1">MAI VĂN DINH</span>
+                                    <p>Địa chỉ: 17 Duy Tân, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội, Việt Nam</p>
+                                    <div class="flex justify-between items-center mt-2 gap-3">
+                                        <p class="text-sm">Điện thoại: 0869966206</p>
+                                        <button
+                                            class="border border-purple-500 text-purple-600 px-3 py-1 rounded-full mt-2 self-end text-sm hover:bg-purple-100">Sửa</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+
+                        <label
+                            class="address-item rounded-2xl border border-gray-100 cursor-pointer transition-all duration-200 relative">
+                            <div class="p-3 flex gap-2 items-start">
+                                <div class="relative">
+                                    <input type="radio" name="address" class="radio-custom mt-1" />
+                                </div>
+                                <div class="flex flex-col text-slate-500">
+                                    <span class="font-medium text-gray-900 mb-1">MAI VĂN DINH</span>
+                                    <p>Địa chỉ: 17 Duy Tân, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội, Việt Nam</p>
+                                    <div class="flex justify-between items-center mt-2 gap-3">
+                                        <p class="text-sm">Điện thoại: 0869966206</p>
+                                        <button
+                                            class="border border-purple-500 text-purple-600 px-3 py-1 rounded-full mt-2 self-end text-sm hover:bg-purple-100">Sửa</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+
+                        <label
+                            class="address-item rounded-2xl border border-gray-100 cursor-pointer transition-all duration-200 relative">
+                            <div class="p-3 flex gap-2 items-start">
+                                <div class="relative">
+                                    <input type="radio" name="address" class="radio-custom mt-1" />
+                                </div>
+                                <div class="flex flex-col text-slate-500">
+                                    <span class="font-medium text-gray-900 mb-1">MAI VĂN DINH</span>
+                                    <p>Địa chỉ: 17 Duy Tân, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội, Việt Nam</p>
+                                    <div class="flex justify-between items-center mt-2 gap-3">
+                                        <p class="text-sm">Điện thoại: 0869966206</p>
+                                        <button
+                                            class="border border-purple-500 text-purple-600 px-3 py-1 rounded-full mt-2 self-end text-sm hover:bg-purple-100">Sửa</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="flex justify-between items-center mt-4 gap-3">
+                        <button
+                            class="border border-blue-500 px-6 py-2 text-blue-500 rounded-full cursor-pointer hover:opacity-80 w-full">Trở
+                            lại</button>
+                        <button
+                            class="bg-blue-500 px-6 py-2 text-white rounded-full cursor-pointer hover:opacity-80 w-full">Xác
+                            nhận</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="thongtin-popup" class="popup fixed inset-0 bg-black/50 bg-opacity-50 hidden overflow-x-hidden z-999">
+        <div class="flex justify-center md:items-center h-full">
+            <div class="popup-content bg-white p-6 md:rounded-3xl shadow-lg max-w-3xl w-full mx-auto  relative">
+
+                <span class="closePopup absolute right-2 top-2 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                        <path
+                            d="M19.281 18.7193C19.3507 18.789 19.406 18.8717 19.4437 18.9628C19.4814 19.0538 19.5008 19.1514 19.5008 19.2499C19.5008 19.3485 19.4814 19.4461 19.4437 19.5371C19.406 19.6281 19.3507 19.7109 19.281 19.7806C19.2114 19.8502 19.1286 19.9055 19.0376 19.9432C18.9465 19.9809 18.849 20.0003 18.7504 20.0003C18.6519 20.0003 18.5543 19.9809 18.4632 19.9432C18.3722 19.9055 18.2895 19.8502 18.2198 19.7806L12.0004 13.5602L5.78104 19.7806C5.64031 19.9213 5.44944 20.0003 5.25042 20.0003C5.05139 20.0003 4.86052 19.9213 4.71979 19.7806C4.57906 19.6398 4.5 19.449 4.5 19.2499C4.5 19.0509 4.57906 18.86 4.71979 18.7193L10.9401 12.4999L4.71979 6.28055C4.57906 6.13982 4.5 5.94895 4.5 5.74993C4.5 5.55091 4.57906 5.36003 4.71979 5.2193C4.86052 5.07857 5.05139 4.99951 5.25042 4.99951C5.44944 4.99951 5.64031 5.07857 5.78104 5.2193L12.0004 11.4396L18.2198 5.2193C18.3605 5.07857 18.5514 4.99951 18.7504 4.99951C18.9494 4.99951 19.1403 5.07857 19.281 5.2193C19.4218 5.36003 19.5008 5.55091 19.5008 5.74993C19.5008 5.94895 19.4218 6.13982 19.281 6.28055L13.0607 12.4999L19.281 18.7193Z"
+                            fill="#2A3262" />
+                    </svg>
+                </span>
+                <!-- header -->
+                <h4 class="text-center text-xl text-color-base mb-3">Chọn hình thức giao hàng</h4>
             </div>
         </div>
     </div>

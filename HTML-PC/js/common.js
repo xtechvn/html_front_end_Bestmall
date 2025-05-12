@@ -118,6 +118,16 @@ $(document).ready(function() {
         $(this).closest('.popup').fadeOut(200);
         $('body').removeClass('overflow-hidden'); // Cho phép cuộn lại
     });
+    // Đóng popup khi click ra ngoài nội dung chính
+    $(document).mousedown(function (event) {
+        $('.popup:visible').each(function () {
+            const popupBox = $(this).find('.popup-content'); // nội dung chính của popup
+            if (!popupBox.is(event.target) && popupBox.has(event.target).length === 0) {
+                $(this).fadeOut(200);
+                $('body').removeClass('overflow-hidden');
+            }
+        });
+    });
 });
   // popup
 $(document).ready(function () {
