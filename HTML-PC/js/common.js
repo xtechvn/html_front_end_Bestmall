@@ -57,7 +57,7 @@ $(document).ready(function () {
     });
 });
 $(document).ready(function() {
-    $('a').click(function(event) {
+    $('.open-popup').click(function(event) {
         var targetId = $(this).attr('href'); 
         var targetPopup = $(targetId); 
         targetPopup.fadeIn(200); 

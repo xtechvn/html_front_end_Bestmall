@@ -469,3 +469,19 @@ input[type="checkbox"]:checked::after {
       }
      }
 }
+/* Bỏ hiệu ứng hover và tương tác */
+.item.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* Cụ thể radio cũng không thể chọn */
+.item.disabled input[type="radio"] {
+  pointer-events: none;
+}
+
+/* Nếu bạn cần override màu hình ảnh (nếu không là PNG trong suốt) */
+.item.disabled img {
+  filter: grayscale(100%) brightness(90%);
+}
