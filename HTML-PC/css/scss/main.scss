@@ -321,6 +321,12 @@ $color-base: #773EFA;
 .item-review:not(:first-child){
   border-top: 1px solid;
 }
+.details-box-images{
+  input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+  }
+}
 /* Ẩn giao diện mặc định */
 input[type="checkbox"] {
   appearance: none;
