@@ -1938,7 +1938,11 @@ input[type="checkbox"]:checked::after {
   }
 }
 
-
+.trietly, .banchay{
+  img{
+     transform: scale(1) !important;
+  }
+}
 
 @media (min-width:768px){
   img{
