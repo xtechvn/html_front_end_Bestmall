@@ -2296,3 +2296,13 @@ input[type="checkbox"]:checked::after {
     font-weight: 300;
   }
 }
+
+#menuToggle {
+  svg path {
+    fill: #773EFA;
+  }
+
+  .text-color-base {
+    color: #000;
+  }
+}
