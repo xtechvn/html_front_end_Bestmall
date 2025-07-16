@@ -8,7 +8,7 @@
 <section class="homepage">
     <div class="max-w-[1230px] mx-auto my-4 px-[15px]">
         <!-- banner -->
-        <div class="banner my-6">
+        <div class="banner">
             <!-- Swiper Banner -->
             <div class="grid grid-cols-1 md:grid-cols-4 gap-4 relative">
                 <!-- Swiper Container -->
@@ -60,7 +60,7 @@
             </div>
         </div>
         <!--  Tiêu chí -->
-        <div class="my-6 md:my-10">
+        <div class="">
             <div class="swiper h-full tieuchi-slide md:rounded-3xl rounded-xl overflow-hidden">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -204,15 +204,18 @@
                 <!-- Header -->
                 <div class="head-flashsale flex justify-between flex-wrap items-center mb-3">
                     <div class="flex items-center gap-2">
-                        <img src="images/flashsale.png" alt="" class="mr-4" />
-                        <span class="md:block hidden">Kết thúc trong</span>
+                        <div class="md:w-[240px] shrink-0">
+                            <img src="images/flashsale.png" alt="" class="mr-4" />
+
+                        </div>
+                        <span class="md:block hidden uppercase font-bold">Kết thúc trong</span>
                         <div id="countdown" class="flex gap-1 font-bold text-[#FF4169]">
                             <span class="bg-white px-2 py-1 rounded" id="hours">00</span> :
                             <span class="bg-white px-2 py-1 rounded" id="minutes">00</span> :
                             <span class="bg-white px-2 py-1 rounded" id="seconds">00</span>
                         </div>
                     </div>
-                    <a href="#" class="flex items-center gap-2 text-sm xemthem">Xem thêm</a>
+                    <a href="#" class="flex items-center gap-2 text-sm xemthem">Xem nhiều hơn</a>
                 </div>
 
                 <!-- Swiper -->
@@ -226,6 +229,7 @@
                                         class="product-item bg-white rounded-xl p-2 text-slate-800 relative h-full pb-14">
                                         <!-- tag -->
                                         <img class="tag-banchay" src="images/tag-banchay.png" alt="" />
+                                       
                                         <!-- Sale badge -->
                                         <a href="">
 
@@ -235,6 +239,9 @@
                                                 <div
                                                     class="tag-sale absolute bottom-0 z-10 left-0 bg-[url(images/tag-sale.png)] bg-contain bg-no-repeat text-white text-xs px-2 w-[56px] h-[30px] py-1">
                                                     -50%</div>
+                                                 <!-- tag-freeship -->
+                                                    <img class="tag-freeship" src="images/tag-freeship.png" alt="" />
+
                                             </div>
                                             <p class="text-sm line-clamp-2 font-medium mt-2">Doppel hers - Ginkgo +
                                                 B-vitamin
@@ -558,8 +565,8 @@
             </div>
         </div>
         <!-- List sp -->
-        <div class="my-6 md:my-10">
-            <h2 class="text-xl md:text-3xl md:mb-5 mb-3">SHOP MALL NỔI BẬT</h2>
+        <div class="my-6 md:my-10 shop-noubat">
+            <h2 class="title md:mb-5 mb-3">SHOP MALL NỔI BẬT</h2>
             <!--  -->
             <div class="md:rounded-3xl rounded-xl bg-white mb-6">
                 <img src="images/banner.jpg" alt=""
@@ -988,7 +995,7 @@
         </div>
         <!-- BẢO VỆ - CHĂM SÓC SỨC KHOẺ -->
         <div class="my-6">
-            <h2 class="mb-3 uppercase"><a href="">BẢO VỆ - CHĂM SÓC SỨC KHOẺ</a> </h2>
+            <h2 class="mb-3"><a href="">Dinh dưỡng - Vitamin khoáng chất</a> </h2>
 
             <!-- Swiper -->
             <div class="relative mt-3">
@@ -1221,7 +1228,7 @@
         </div>
         <!-- BẢO VỆ - CHĂM SÓC SỨC KHOẺ -->
         <div class="my-6">
-            <h2 class="mb-3 uppercase"><a href="">BẢO VỆ - CHĂM SÓC SỨC KHOẺ</a> </h2>
+            <h2 class="mb-3"><a href="">Dinh dưỡng - Vitamin khoáng chất</a> </h2>
 
             <!-- Swiper -->
             <div class="relative mt-3">
@@ -1453,27 +1460,12 @@
             </div>
         </div>
         <!-- List XU HƯỚNG MUA SẮM -->
-        <div class="my-6 md:my-10">
-            <div class="flex justify-between flex-wrap gap-2 mb-3">
-                <h2 class="uppercase"><a href="">XU HƯỚNG MUA SẮM</a> </h2>
-                <a href="#" class="flex items-center gap-2 text-blue-500 text-sm">Xem thêm<svg
-                        xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                        <path
-                            d="M12.773 9.39804L7.14804 15.023C7.09578 15.0753 7.03373 15.1168 6.96545 15.145C6.89716 15.1733 6.82398 15.1879 6.75007 15.1879C6.67616 15.1879 6.60297 15.1733 6.53469 15.145C6.46641 15.1168 6.40436 15.0753 6.3521 15.023C6.29984 14.9708 6.25838 14.9087 6.2301 14.8404C6.20181 14.7722 6.18726 14.699 6.18726 14.6251C6.18726 14.5512 6.20181 14.478 6.2301 14.4097C6.25838 14.3414 6.29984 14.2794 6.3521 14.2271L11.5798 9.00007L6.3521 3.77304C6.24655 3.66749 6.18726 3.52434 6.18726 3.37507C6.18726 3.2258 6.24655 3.08265 6.3521 2.9771C6.45765 2.87155 6.6008 2.81226 6.75007 2.81226C6.89934 2.81226 7.04249 2.87155 7.14804 2.9771L12.773 8.6021C12.8253 8.65434 12.8668 8.71638 12.8951 8.78466C12.9234 8.85295 12.938 8.92615 12.938 9.00007C12.938 9.07399 12.9234 9.14719 12.8951 9.21547C12.8668 9.28376 12.8253 9.3458 12.773 9.39804Z"
-                            fill="#773EFA" />
-                    </svg></a>
+        <div class="my-6 md:my-10 block-xuhuong">
+            <div class="tab-xuhuong">
+                <h2 class="title">XU HƯỚNG MUA SẮM</h2>
             </div>
-
-            <div class="h-[1px] w-full bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500"></div>
             <div class="box-xuhuong mt-4 grid md:grid-cols-4 grid-cols-2 md:gap-6 gap-2">
-                <div class="item rounded-full bg-stone-800">
-                    <a href="">
-                        <div class="flex gap-2 items-center">
-                            <h3 class="title">Chống nắng</h3>
-                            <img src="images/imgxh.png" alt="" width="130" height="160" class="rounded-full" />
-                        </div>
-                    </a>
-                </div>
+               
                 <div class="item rounded-full bg-stone-800">
                     <a href="">
                         <div class="flex gap-2 items-center">
@@ -1507,6 +1499,45 @@
                             <h3 class="title">Thực phẩm
                                 chức năng</h3>
                             <img src="images/imgxh.png" alt="" width="130" height="160" class="rounded-full" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box-xuhuong box-xuhuong-2 mt-4 grid md:grid-cols-4 grid-cols-2 md:gap-6 gap-2">
+
+                <div class="item rounded-full bg-stone-800">
+                    <a href="">
+                        <div class="flex gap-2 items-center">
+                            <h3 class="title">Thực phẩm
+                                chức năng</h3>
+                            <span class="box-color"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="item rounded-full bg-stone-800">
+                    <a href="">
+                        <div class="flex gap-2 items-center">
+                            <h3 class="title">Thực phẩm
+                                chức năng</h3>
+                            <span class="box-color"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="item rounded-full bg-stone-800">
+                    <a href="">
+                        <div class="flex gap-2 items-center">
+                            <h3 class="title">Thực phẩm
+                                chức năng</h3>
+                            <span class="box-color"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="item rounded-full bg-stone-800">
+                    <a href="">
+                        <div class="flex gap-2 items-center">
+                            <h3 class="title">Thực phẩm
+                                chức năng</h3>
+                            <span class="box-color"></span>
                         </div>
                     </a>
                 </div>
@@ -1684,7 +1715,7 @@
         <!-- List Sản phẩm đã xem -->
         <div class="my-6 md:my-10">
             <div class="flex justify-between flex-wrap gap-2 mb-3">
-                <h2 class="uppercase"><a href="">Sản phẩm đã xem</a> </h2>
+                <h2 class="uppercase font-bold"><a href="">Sản phẩm đã xem</a> </h2>
                 <!-- <a href="#" class="flex items-center gap-2 text-blue-500 text-sm">Xem thêm<svg
                         xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                         <path
@@ -1926,7 +1957,7 @@
 
         <!-- List Thương hiệu -->
         <div class="my-6 md:my-10">
-            <h3 class="uppercase mb-3">ĐỐI TÁC - NHÀ CUNG CẤP</h3>
+            <h3 class="uppercase font-bold mb-3">ĐỐI TÁC - NHÀ CUNG CẤP</h3>
             <!-- Swiper -->
             <div class="relative mt-3">
                 <div class="brands-swiper">

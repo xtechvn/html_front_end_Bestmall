@@ -19,8 +19,9 @@ html {
 body {
   font-family: "Hubot Sans", sans-serif;
   font-weight: 400;
-  color: #000000;
-  background: linear-gradient(180deg, #FFF 0%, #F1F5F9 25.96%) !important;
+  color: #303032;
+  
+  background: #EFF6FF;
 }
 
 p {
@@ -179,7 +180,7 @@ $color-base: #773EFA;
   font-size: 14px;
 
   * {
-    color: #000;
+    color: #303032;
   }
 
   ul li {
@@ -1999,7 +2000,12 @@ input[type="checkbox"]:checked::after {
 .popup-content {
   height: fit-content;
 }
-
+.aspect-\[5\/3\],.aspect-\[16\/9\],
+  .aspect-\[1\/1\] {
+      img{
+      background: radial-gradient(50% 50% at 50% 50%, #FFF 45%, #FCEBF4 100%);
+}
+  }
 @media (min-width:768px) {
 
   .aspect-\[5\/3\],
@@ -2009,7 +2015,6 @@ input[type="checkbox"]:checked::after {
 
     img {
       transition: all 0.2s ease-in-out;
-
       &:hover {
         transform: scale(1.05);
       }
@@ -2034,7 +2039,7 @@ input[type="checkbox"]:checked::after {
     font-family: "Hubot Sans", sans-serif;
     font-size: 12px;
   }
-
+  
   .tag-banchay {
     position: absolute;
     left: 8px;
@@ -2052,16 +2057,37 @@ input[type="checkbox"]:checked::after {
     }
   }
 }
+.flashsale-box{
+  margin-bottom: 65px;
+  @media (max-width:767px){
+    margin-bottom: 30px;
+ }
 
+
+
+}
+.tag-freeship{
+  position: absolute;
+  right: -1px;
+  bottom: 0;
+}
 .head-flashsale {
+  padding-top: 15px;
+  margin-bottom: 30px;
   .xemthem {
     display: flex;
     align-items: center;
     gap: 5px;
 
     &::after {
-      line-height: 10px;
-      content: url('data:image/svg+xml,<svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg"><rect y="0.318359" width="26" height="26" rx="13" fill="white"/><path d="M16.7733 13.7157L11.1483 19.3407C11.096 19.3929 11.034 19.4344 10.9657 19.4627C10.8974 19.491 10.8242 19.5055 10.7503 19.5055C10.6764 19.5055 10.6032 19.491 10.5349 19.4627C10.4666 19.4344 10.4046 19.3929 10.3523 19.3407C10.3001 19.2884 10.2586 19.2264 10.2303 19.1581C10.2021 19.0898 10.1875 19.0166 10.1875 18.9427C10.1875 18.8688 10.2021 18.7956 10.2303 18.7273C10.2586 18.659 10.3001 18.597 10.3523 18.5447L15.5801 13.3177L10.3523 8.09066C10.2468 7.98512 10.1875 7.84196 10.1875 7.6927C10.1875 7.54343 10.2468 7.40027 10.3523 7.29473C10.4579 7.18918 10.601 7.12988 10.7503 7.12988C10.8996 7.12988 11.0427 7.18918 11.1483 7.29473L16.7733 12.9197C16.8256 12.972 16.8671 13.034 16.8954 13.1023C16.9237 13.1706 16.9383 13.2438 16.9383 13.3177C16.9383 13.3916 16.9237 13.4648 16.8954 13.5331C16.8671 13.6014 16.8256 13.6634 16.7733 13.7157Z" fill="%23FF4169"/></svg>');
+      line-height: 24px;
+      text-align: center;
+      width: 24px;
+      height: 24px;
+      padding-top: 3px;
+      border-radius: 50%;
+      background: #FFF;
+      content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none"><path d="M11.9815 9.43181L6.78922 14.6241C6.74098 14.6724 6.68371 14.7106 6.62067 14.7367C6.55764 14.7628 6.49009 14.7763 6.42186 14.7763C6.35364 14.7763 6.28608 14.7628 6.22305 14.7367C6.16002 14.7106 6.10275 14.6724 6.05451 14.6241C6.00627 14.5759 5.968 14.5186 5.94189 14.4556C5.91578 14.3925 5.90234 14.325 5.90234 14.2568C5.90234 14.1885 5.91578 14.121 5.94189 14.058C5.968 13.9949 6.00627 13.9376 6.05451 13.8894L10.8801 9.06445L6.05451 4.2395C5.95708 4.14207 5.90234 4.00993 5.90234 3.87215C5.90234 3.73436 5.95708 3.60222 6.05451 3.50479C6.15194 3.40736 6.28408 3.35263 6.42186 3.35263C6.55965 3.35263 6.69179 3.40736 6.78922 3.50479L11.9815 8.6971C12.0298 8.74532 12.0681 8.80259 12.0942 8.86562C12.1204 8.92865 12.1338 8.99622 12.1338 9.06445C12.1338 9.13269 12.1204 9.20025 12.0942 9.26329C12.0681 9.32632 12.0298 9.38359 11.9815 9.43181Z" fill="%23FD426D"/></svg>')
     }
   }
 }
@@ -2072,7 +2098,6 @@ input[type="checkbox"]:checked::after {
 
   .title {
     position: relative;
-    position: relative;
     border-radius: 16px;
     background: #65C37E;
     display: inline-block;
@@ -2080,27 +2105,71 @@ input[type="checkbox"]:checked::after {
     width: 240px;
     color: #fff;
     text-align: center;
+    order: -1;
   }
 
-  &::after {
+  &::before {
     content: '';
     height: 1px;
     width: 100%;
-    background: #D5C3FD;
+    background: #ACA3E8;
     display: block;
   }
-
+ &::after {
+    content: '';
+    height: 8px;
+    width: 56px;
+    flex-shrink: 0;
+    background:  #CEC5FF;
+    display: block;
+    margin-top: -4px;
+  }
   .hot-trend {
-    padding: 2px 18px;
-    background: #FF4169;
-    font-size: 13px;
+    padding: 1px 4px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #FF3F41;
+    font-size: 9px;
     position: absolute;
     right: 0;
     top: -13px;
     transform: translateX(50%);
   }
 }
+.tab-xuhuong{
+   display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+      @media (max-width:768px) {
+        margin-bottom: 15px;
+      }
+  .title {
+    position: relative;
+    display: inline-block;
+    order: -1;
+    font-size: 21px;
+    font-weight: bold;
+    white-space: nowrap;
+  }
 
+  &::before {
+    content: '';
+    height: 1px;
+    width: 100%;
+    background: #ACA3E8;
+    display: block;
+  }
+ &::after {
+    content: '';
+    height: 8px;
+    width: 56px;
+    flex-shrink: 0;
+    background:  #CEC5FF;
+    display: block;
+    margin-top: -4px;
+  }
+}
 .box-xuhuong {
   .title {
     width: 100%;
@@ -2109,22 +2178,62 @@ input[type="checkbox"]:checked::after {
   }
 
   .item {
-    border-radius: 60px;
+    border-radius: 50px;
+    font-size: 17px;
+      @media (max-width:500px) {
+        font-size: 13px;
+      }
   }
 
   img {
     flex-shrink: 0;
     width: 130px;
-    height: 160px;
-    border-radius: 60px;
-
+    height:220px;
+    border-radius: 50px;
+    object-fit: cover;
     @media (max-width:768px) {
       width: 80px;
       height: 80px;
     }
   }
-}
+  &.box-xuhuong-2{
+    margin-top: 45px;
+     @media (max-width:500px) {
+      margin-top: 15px;
+     }
+     .title {
+      width: 100%;
+      text-align: center;
+      color: #303032;
+    }
 
+    .item {
+      border-radius: 35px;
+      font-size: 15px;
+      background: #fff;
+        @media (max-width:500px) {
+          font-size: 13px;
+        }
+    }
+    .box-color{
+      width: 100px;
+      height: 93px;
+      flex-shrink: 0;
+      border-radius: 35px;
+      background: #E5DDFF;
+       @media (max-width:500px) {
+          width: 60px;
+          height: 60px;
+        }
+    }
+  }
+}
+.block-xuhuong{
+  margin: 65px 0;
+   @media (max-width:768px) {
+    margin: 30px 0;
+   }
+}
 .list-category {
   display: grid;
   
@@ -2215,7 +2324,12 @@ input[type="checkbox"]:checked::after {
   display: flex;
   align-items: center;
   gap: 10px;
-
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 30px;
+   @media (max-width:768px) {
+      margin-bottom: 0;
+    }
   a {
     display: flex;
     align-items: center;
@@ -2226,7 +2340,7 @@ input[type="checkbox"]:checked::after {
   span {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 16px;
 
     @media (max-width:768px) {
       display: none;
@@ -2237,7 +2351,7 @@ input[type="checkbox"]:checked::after {
       width: 4px;
       flex-shrink: 0;
       height: 4px;
-      background: #000;
+      background: #303032;
       border-radius: 50%;
       display: block;
     }
@@ -2270,15 +2384,41 @@ input[type="checkbox"]:checked::after {
 }
 
 .item-listsp {}
-
+.shop-noubat{
+  margin-bottom: 65px;
+  margin-top: 65px;
+  
+  @media (max-width:768px) {
+    margin: 30px 0;
+  }
+  .title{
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+    
+      @media (max-width:768px) {
+       margin-bottom: 15px;
+      }
+  }
+}
+.my-6.md\:my-10{
+  margin: 65px 0;
+      @media (max-width:768px) {
+       margin:30px 0;
+      }
+}
 .box-danhmuc {
   border-radius: 16px;
   border: 1px solid #E3EBF3;
   background: #E3EAFF;
   padding: 24px 15px 10px;
+  
+  margin-bottom: 55px;
 
   @media (max-width:768px) {
     padding-top: 35px;
+    margin-bottom: 30px;
   }
 
   .head-title {
@@ -2292,16 +2432,18 @@ input[type="checkbox"]:checked::after {
       display: flex;
       align-items: center;
       white-space: nowrap;
-
+      font-weight: bold;
     }
 
 
     .hottrend {
       position: relative;
-      padding: 2px 18px;
-      background: #FF4169;
-      font-size: 13px;
+      padding:1px 4px;
+      border-radius: 3px;
+      background: #FF3F41;
+      font-size: 9px;
       color: #fff;
+      font-weight: bold;
       top: -17px;
       white-space: nowrap;
 
@@ -2315,14 +2457,15 @@ input[type="checkbox"]:checked::after {
       content: '';
       height: 1px;
       width: 100%;
-      background: #D5C3FD;
+      background: #ACA3E8;
       display: block;
     }
 
     .trusted {
       padding: 2px 18px;
-      background: #D5C3FD;
-      font-size: 13px;
+      border-radius: 3px;
+      background:  #ACA3E8;
+      font-size: 8px;
       color: #fff;
       white-space: nowrap;
       display: flex;
@@ -2333,13 +2476,21 @@ input[type="checkbox"]:checked::after {
   }
 
   .list-danhmuc {
+    gap: 10px;
+  
+    @media (max-width:1200px) and (min-width:768px) {
+     justify-content: center;
+       flex-wrap: wrap;
+    }
     .item {
       background: #fff;
-
+      max-width: 112px;
+      width: 100%;
       .bg-blue-50 {
         width: 80px;
         border-radius: 50%;
         height: 80px;
+        margin: auto;
         background: #F1F5F9;
 
         img {
@@ -2352,18 +2503,25 @@ input[type="checkbox"]:checked::after {
       img {}
 
       a {
-        color: #000;
+        color: #303032;
+        line-height: 150%;
+        font-size: 13px;
       }
     }
   }
 }
 
 .tieuchi-slide {
+  margin: 16px 0;
+  h4{
+    font-size: 15px;
+    line-height: 120%;
+  }
   p {
-    color: #4f4f4f;
-    font-size: 13px;
+    color: #58595B;
+    font-size: 10px;
     font-family: "Hubot Sans", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
   }
 }
 
@@ -2373,7 +2531,7 @@ input[type="checkbox"]:checked::after {
   }
 
   .text-color-base {
-    color: #000;
+    color: #303032;
   }
 }
 .box-info-footer{
