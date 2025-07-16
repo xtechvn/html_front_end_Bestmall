@@ -164,8 +164,8 @@
                         </div>
                     </div>
                     <div class="w-full">
-                        <h6 class="">Thương hiệu: <a href="" class="text-color-base">YOUTHEORY</a></h6>
-                        <h1 class="md:text-2xl text-xl font-normal mb-4">Viên Uống Healthy Care Glucosamine HCL 1500mg,
+                        <h6 class="cat-detail">Thương hiệu: <a href="" class="text-color-base">YOUTHEORY</a></h6>
+                        <h1 class="title-product md:text-2xl text-xl font-normal mb-4">Viên Uống Healthy Care Glucosamine HCL 1500mg,
                             Hộp
                             400 Viên</h1>
                         <div class="flex items-center gap-2 mb-4 text-xs md:text-base">
@@ -201,8 +201,8 @@
                                 </svg>
                                 <span class="text-red-500">4.9</span>
                             </span>
-                            <span class="pl-2 border-l border-gray-300 leading-none">1,1k Đã bán</span>
-                            <span class="pl-2 border-l border-gray-300 leading-none">687 Đánh giá</span>
+                            <span class="pl-2 border-l border-gray-300 leading-none color-gray">1,1k Đã bán</span>
+                            <span class="pl-2 border-l border-gray-300 leading-none color-gray">687 Đánh giá</span>
                         </div>
                         <a href="#check-popup"
                             class="open-popup text-sm bg-purple-100 text-color-base flex w-fit gap-2 items-center px-3 py-1 rounded-full hover:bg-purple-200 transition mb-4">
@@ -321,25 +321,22 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="flex items-center gap-2 justify-between mb-3">
+                        <div class="flex items-center gap-2 justify-between my-5">
                             <img src="images/flash-sale.png" alt="" />
-                            <div class="flex items-center gap-2">
-                                <span class="md:block hidden font-normal uppercase">Kết thúc trong</span>
-                                <div id="countdown" class="flex gap-1 font-bold text-white">
-                                    <span class="bg-[#FF4169] px-2 py-1 rounded" id="hours">00</span> <span
-                                        class="text-[#FF4169]"> :</span>
-                                    <span class="bg-[#FF4169] px-2 py-1 rounded" id="minutes">00</span> <span
-                                        class="text-[#FF4169]">
-                                        :</span>
+                            <div class="flex items-center gap-6">
+                                <span class="md:block hidden font-bold uppercase">Kết thúc trong</span>
+                                <div id="countdown" class="flex gap-3 font-bold text-white">
+                                    <span class="bg-[#FF4169] px-2 py-1 rounded" id="hours">00</span>
+                                    <span class="bg-[#FF4169] px-2 py-1 rounded" id="minutes">00</span> 
                                     <span class="bg-[#FF4169] px-2 py-1 rounded" id="seconds">00</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="rounded-2xl bg-blue-50 p-4 md:px-6 mb-4">
+                        <div class="price-detail">
                             <div class="flex gap-2 items-center">
-                                <div class="text-2xl md:text-3xl text-red-400 font-normal">169.000</div>
-                                <div class="text-gray-400 "><strike>338.000</strike></div>
-                                <div class="text-red-400 flex gap-1 items-center">50%
+                                <div class="number">169.000</div>
+                                <div class="color-gray-2"><strike>338.000</strike></div>
+                                <div class="sale-percent flex gap-1 items-center">50%
                                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="20" viewBox="0 0 10 20"
                                         fill="none">
                                         <path
@@ -353,7 +350,7 @@
                         <table class="font-normal table-product mb-4 w-full mb-4">
                             <tbody>
                                 <tr>
-                                    <td class="text-slate-500">Mã giảm giá:</td>
+                                    <td >Mã giảm giá:</td>
                                     <td>
                                         <span class="flex gap-2 items-center flex-wrap">
                                             <div class="relative inline-block group">
@@ -397,7 +394,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="text-slate-500">Combo khuyến mãi:</td>
+                                    <td >Combo khuyến mãi:</td>
                                     <td>
                                         <span class="flex gap-2 items-center flex-wrap">
                                             <span
@@ -410,15 +407,15 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="text-slate-500">Vận chuyển:</td>
+                                    <td >Vận chuyển:</td>
                                     <td>Miễn phí vận chuyển</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-slate-500">Chính sách đổi trả:</td>
+                                    <td >Chính sách đổi trả:</td>
                                     <td>Đổi trả trong vòng 3 ngày</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-slate-500">Phân loại: </td>
+                                    <td >Phân loại: </td>
                                     <td>
                                         <span class="flex gap-2 items-center flex-wrap">
                                             <span
@@ -431,7 +428,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="text-slate-500">Số lượng:</td>
+                                    <td >Số lượng:</td>
                                     <td>
                                         <span class="flex gap-2 items-center">
                                             <div class="flex items-center">
@@ -449,27 +446,31 @@
                                         </span>
                                     </td>
                                 </tr>
+                                 <tr>
+                                    <td ></td>
+                                    <td>
+                                         <div class="flex items-center flex-wrap gap-3 mt-4 justify-start">
+                                            <button
+                                                class="border-blue-500 border px-6 py-2 text-color-base rounded-full cursor-pointer hover:opacity-80 flex items-center justify-center gap-2 w-full sm:w-auto">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                                    fill="none">
+                                                    <path
+                                                        d="M9.75 20.25C9.75 20.5467 9.66203 20.8367 9.4972 21.0834C9.33238 21.33 9.09811 21.5223 8.82403 21.6358C8.54994 21.7494 8.24834 21.7791 7.95736 21.7212C7.66639 21.6633 7.39912 21.5204 7.18934 21.3107C6.97956 21.1009 6.8367 20.8336 6.77882 20.5426C6.72094 20.2517 6.75065 19.9501 6.86418 19.676C6.97771 19.4019 7.16997 19.1676 7.41665 19.0028C7.66332 18.838 7.95333 18.75 8.25 18.75C8.64782 18.75 9.02936 18.908 9.31066 19.1893C9.59196 19.4706 9.75 19.8522 9.75 20.25ZM18 18.75C17.7033 18.75 17.4133 18.838 17.1666 19.0028C16.92 19.1676 16.7277 19.4019 16.6142 19.676C16.5006 19.9501 16.4709 20.2517 16.5288 20.5426C16.5867 20.8336 16.7296 21.1009 16.9393 21.3107C17.1491 21.5204 17.4164 21.6633 17.7074 21.7212C17.9983 21.7791 18.2999 21.7494 18.574 21.6358C18.8481 21.5223 19.0824 21.33 19.2472 21.0834C19.412 20.8367 19.5 20.5467 19.5 20.25C19.5 19.8522 19.342 19.4706 19.0607 19.1893C18.7794 18.908 18.3978 18.75 18 18.75ZM22.4728 6.95062L20.0691 15.6019C19.9369 16.0745 19.6542 16.4911 19.2639 16.7885C18.8736 17.0859 18.397 17.2479 17.9062 17.25H8.64C8.14784 17.2498 7.66926 17.0886 7.27725 16.791C6.88523 16.4935 6.6013 16.0758 6.46875 15.6019L3.18 3.75H1.5C1.30109 3.75 1.11032 3.67098 0.96967 3.53033C0.829018 3.38968 0.75 3.19891 0.75 3C0.75 2.80109 0.829018 2.61032 0.96967 2.46967C1.11032 2.32902 1.30109 2.25 1.5 2.25H3.75C3.91397 2.24997 4.07343 2.30367 4.20398 2.40289C4.33452 2.50211 4.42895 2.64138 4.47281 2.79938L5.36156 6H21.75C21.8656 5.99998 21.9797 6.02669 22.0833 6.07805C22.1869 6.1294 22.2772 6.20401 22.3472 6.29605C22.4171 6.38809 22.4649 6.49506 22.4867 6.60861C22.5085 6.72216 22.5037 6.83922 22.4728 6.95062ZM20.7628 7.5H5.77875L7.91719 15.2006C7.96105 15.3586 8.05548 15.4979 8.18602 15.5971C8.31657 15.6963 8.47603 15.75 8.64 15.75H17.9062C18.0702 15.75 18.2297 15.6963 18.3602 15.5971C18.4908 15.4979 18.5852 15.3586 18.6291 15.2006L20.7628 7.5Z"
+                                                        fill="#773EFA" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M13.125 8.625C13.5392 8.625 13.875 8.96079 13.875 9.375V10.5H15C15.4142 10.5 15.75 10.8358 15.75 11.25C15.75 11.6642 15.4142 12 15 12H13.875V13.125C13.875 13.5392 13.5392 13.875 13.125 13.875C12.7108 13.875 12.375 13.5392 12.375 13.125V12H11.25C10.8358 12 10.5 11.6642 10.5 11.25C10.5 10.8358 10.8358 10.5 11.25 10.5H12.375V9.375C12.375 8.96079 12.7108 8.625 13.125 8.625Z"
+                                                        fill="#773EFA" />
+                                                </svg>Thêm vào giỏ hàng</button>
+                                            <button
+                                                class="border-blue-500 bg-blue-500 border px-6 py-2 text-white rounded-full cursor-pointer hover:opacity-80 w-full sm:w-auto">Mua
+                                                ngay</button>
+                                        </div>
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
 
-                        <div class="flex items-center flex-wrap gap-3 mb-4 justify-center">
-                            <button
-                                class="border-blue-500 border px-6 py-2 text-color-base rounded-full cursor-pointer hover:opacity-80 flex items-center justify-center gap-2 w-full sm:w-auto">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none">
-                                    <path
-                                        d="M9.75 20.25C9.75 20.5467 9.66203 20.8367 9.4972 21.0834C9.33238 21.33 9.09811 21.5223 8.82403 21.6358C8.54994 21.7494 8.24834 21.7791 7.95736 21.7212C7.66639 21.6633 7.39912 21.5204 7.18934 21.3107C6.97956 21.1009 6.8367 20.8336 6.77882 20.5426C6.72094 20.2517 6.75065 19.9501 6.86418 19.676C6.97771 19.4019 7.16997 19.1676 7.41665 19.0028C7.66332 18.838 7.95333 18.75 8.25 18.75C8.64782 18.75 9.02936 18.908 9.31066 19.1893C9.59196 19.4706 9.75 19.8522 9.75 20.25ZM18 18.75C17.7033 18.75 17.4133 18.838 17.1666 19.0028C16.92 19.1676 16.7277 19.4019 16.6142 19.676C16.5006 19.9501 16.4709 20.2517 16.5288 20.5426C16.5867 20.8336 16.7296 21.1009 16.9393 21.3107C17.1491 21.5204 17.4164 21.6633 17.7074 21.7212C17.9983 21.7791 18.2999 21.7494 18.574 21.6358C18.8481 21.5223 19.0824 21.33 19.2472 21.0834C19.412 20.8367 19.5 20.5467 19.5 20.25C19.5 19.8522 19.342 19.4706 19.0607 19.1893C18.7794 18.908 18.3978 18.75 18 18.75ZM22.4728 6.95062L20.0691 15.6019C19.9369 16.0745 19.6542 16.4911 19.2639 16.7885C18.8736 17.0859 18.397 17.2479 17.9062 17.25H8.64C8.14784 17.2498 7.66926 17.0886 7.27725 16.791C6.88523 16.4935 6.6013 16.0758 6.46875 15.6019L3.18 3.75H1.5C1.30109 3.75 1.11032 3.67098 0.96967 3.53033C0.829018 3.38968 0.75 3.19891 0.75 3C0.75 2.80109 0.829018 2.61032 0.96967 2.46967C1.11032 2.32902 1.30109 2.25 1.5 2.25H3.75C3.91397 2.24997 4.07343 2.30367 4.20398 2.40289C4.33452 2.50211 4.42895 2.64138 4.47281 2.79938L5.36156 6H21.75C21.8656 5.99998 21.9797 6.02669 22.0833 6.07805C22.1869 6.1294 22.2772 6.20401 22.3472 6.29605C22.4171 6.38809 22.4649 6.49506 22.4867 6.60861C22.5085 6.72216 22.5037 6.83922 22.4728 6.95062ZM20.7628 7.5H5.77875L7.91719 15.2006C7.96105 15.3586 8.05548 15.4979 8.18602 15.5971C8.31657 15.6963 8.47603 15.75 8.64 15.75H17.9062C18.0702 15.75 18.2297 15.6963 18.3602 15.5971C18.4908 15.4979 18.5852 15.3586 18.6291 15.2006L20.7628 7.5Z"
-                                        fill="#773EFA" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M13.125 8.625C13.5392 8.625 13.875 8.96079 13.875 9.375V10.5H15C15.4142 10.5 15.75 10.8358 15.75 11.25C15.75 11.6642 15.4142 12 15 12H13.875V13.125C13.875 13.5392 13.5392 13.875 13.125 13.875C12.7108 13.875 12.375 13.5392 12.375 13.125V12H11.25C10.8358 12 10.5 11.6642 10.5 11.25C10.5 10.8358 10.8358 10.5 11.25 10.5H12.375V9.375C12.375 8.96079 12.7108 8.625 13.125 8.625Z"
-                                        fill="#773EFA" />
-                                </svg>Thêm vào giỏ hàng</button>
-                            <button
-                                class="border-blue-500 bg-blue-500 border px-6 py-2 text-white rounded-full cursor-pointer hover:opacity-80 w-full sm:w-auto">Mua
-                                ngay</button>
-
-
-                        </div>
+                       
                     </div>
                 </div>
             </div>
@@ -699,19 +700,22 @@
                         <div class="relative">
                             <!-- Tabs Sticky -->
                             <div id="tabs"
-                                class="sticky top-0 z-50 bg-white px-4 border-b border-gray-100 pt-2 md:rounded-tl-xl md:rounded-tr-xl rounded-tl-xl rounded-tr-xl  mb-2">
+                                class="sticky top-0 z-50 bg-white">
                                 <div class="flex md:justify-between gap-3 overflow-x-auto whitespace-nowrap">
                                     <button
-                                        class="w-full text-center tab-link  font-normal border-b-2 border-transparent text-gray-600 px-3 py-2 focus:outline-none text-color-base border-blue-500 "
+                                        class=" tab-link active"
                                         data-target="#mo-ta">Mô tả sản phẩm</button>
                                     <button
-                                        class="w-full text-center tab-link  font-normal border-b-2 border-transparent text-gray-600 px-3 py-2"
+                                        class=" tab-link"
                                         data-target="#thanh-phan">Thành phần</button>
                                     <button
-                                        class="w-full text-center tab-link  font-normal border-b-2 border-transparent text-gray-600 px-3 py-2"
+                                        class=" tab-link"
                                         data-target="#cong-dung">Công dụng</button>
                                     <button
-                                        class="w-full text-center tab-link  font-normal border-b-2 border-transparent text-gray-600 px-3 py-2"
+                                        class=" tab-link"
+                                        data-target="#cach-dung">Cách dùng</button>
+                                    <button
+                                        class=" tab-link"
                                         data-target="#cach-dung">Cách dùng</button>
                                 </div>
                             </div>
@@ -808,23 +812,33 @@
                                         CẢ</button>
                                     <button
                                         class="border-gray-300 border hover:border-red-200 hover:text-red-400 px-3 py-2 rounded cursor-pointer">5
-                                        sao
+                                        sao <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M7.59027 1.30172L8.76483 4.93106H12.579C13.3312 4.93106 13.648 5.89441 13.0409 6.34312L9.95265 8.58665L11.1272 12.216C11.3648 12.9418 10.5333 13.5358 9.92623 13.0871L6.838 10.8435L3.74977 13.0871C3.14269 13.5358 2.31123 12.9286 2.54879 12.216L3.72339 8.58665L0.635126 6.34312C0.0280382 5.89441 0.33159 4.93106 1.09705 4.93106H4.91117L6.08573 1.30172C6.32329 0.575858 7.33951 0.575858 7.57706 1.30172H7.59027Z" fill="#BAAFFE"/>
+</svg>
                                         (8,2k)</button>
                                     <button
                                         class="border-gray-300 border hover:border-red-200 hover:text-red-400 px-3 py-2 rounded cursor-pointer">4
-                                        sao
+                                        sao <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M7.59027 1.30172L8.76483 4.93106H12.579C13.3312 4.93106 13.648 5.89441 13.0409 6.34312L9.95265 8.58665L11.1272 12.216C11.3648 12.9418 10.5333 13.5358 9.92623 13.0871L6.838 10.8435L3.74977 13.0871C3.14269 13.5358 2.31123 12.9286 2.54879 12.216L3.72339 8.58665L0.635126 6.34312C0.0280382 5.89441 0.33159 4.93106 1.09705 4.93106H4.91117L6.08573 1.30172C6.32329 0.575858 7.33951 0.575858 7.57706 1.30172H7.59027Z" fill="#BAAFFE"/>
+</svg>
                                         (387)</button>
                                     <button
                                         class="border-gray-300 border hover:border-red-200 hover:text-red-400 px-3 py-2 rounded cursor-pointer">3
-                                        sao
+                                        sao <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M7.59027 1.30172L8.76483 4.93106H12.579C13.3312 4.93106 13.648 5.89441 13.0409 6.34312L9.95265 8.58665L11.1272 12.216C11.3648 12.9418 10.5333 13.5358 9.92623 13.0871L6.838 10.8435L3.74977 13.0871C3.14269 13.5358 2.31123 12.9286 2.54879 12.216L3.72339 8.58665L0.635126 6.34312C0.0280382 5.89441 0.33159 4.93106 1.09705 4.93106H4.91117L6.08573 1.30172C6.32329 0.575858 7.33951 0.575858 7.57706 1.30172H7.59027Z" fill="#BAAFFE"/>
+</svg>
                                         (139)</button>
                                     <button
                                         class="border-gray-300 border hover:border-red-200 hover:text-red-400 px-3 py-2 rounded cursor-pointer">2
-                                        sao
+                                        sao <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M7.59027 1.30172L8.76483 4.93106H12.579C13.3312 4.93106 13.648 5.89441 13.0409 6.34312L9.95265 8.58665L11.1272 12.216C11.3648 12.9418 10.5333 13.5358 9.92623 13.0871L6.838 10.8435L3.74977 13.0871C3.14269 13.5358 2.31123 12.9286 2.54879 12.216L3.72339 8.58665L0.635126 6.34312C0.0280382 5.89441 0.33159 4.93106 1.09705 4.93106H4.91117L6.08573 1.30172C6.32329 0.575858 7.33951 0.575858 7.57706 1.30172H7.59027Z" fill="#BAAFFE"/>
+</svg>
                                         (32)</button>
                                     <button
                                         class="border-gray-300 border hover:border-red-200 hover:text-red-400 px-3 py-2 rounded cursor-pointer">1
-                                        sao
+                                        sao <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M7.59027 1.30172L8.76483 4.93106H12.579C13.3312 4.93106 13.648 5.89441 13.0409 6.34312L9.95265 8.58665L11.1272 12.216C11.3648 12.9418 10.5333 13.5358 9.92623 13.0871L6.838 10.8435L3.74977 13.0871C3.14269 13.5358 2.31123 12.9286 2.54879 12.216L3.72339 8.58665L0.635126 6.34312C0.0280382 5.89441 0.33159 4.93106 1.09705 4.93106H4.91117L6.08573 1.30172C6.32329 0.575858 7.33951 0.575858 7.57706 1.30172H7.59027Z" fill="#BAAFFE"/>
+</svg>
                                         (55)</button>
                                     <button
                                         class="border-gray-300 border hover:border-red-200 hover:text-red-400 px-3 py-2 rounded cursor-pointer">Có
@@ -912,76 +926,75 @@
                             </div>
                         </div>
                     </div>
-                    <div class="space-y-3">
-                        <div class="hidden md:block overflow-visible">
-                            <div class="sticky top-0 z-50 md:rounded-3xl rounded-xl bg-white md:p-5 p-3">
-                                <h1 class="md:text-2xl text-xl font-normal mb-4">Viên Uống Healthy Care Glucosamine HCL
-                                    1500mg,
-                                    Hộp 400 Viên</h1>
-                                <div class="rounded-2xl bg-blue-50 p-4 md:px-6 mb-4">
-                                    <div class="flex gap-2 items-center">
-                                        <div class="text-2xl md:text-3xl text-red-400 font-normal">169.000</div>
-                                        <div class="text-gray-400 "><strike>338.000</strike></div>
-                                        <div class="text-red-400 flex gap-1 items-center">50%
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="20"
-                                                viewBox="0 0 10 20" fill="none">
-                                                <path
-                                                    d="M2.84029 0H8.70628L6.16098 7.41677H9.32153L0.809102 20L3.09313 10.4509H0L2.84029 0Z"
-                                                    fill="#F9CA6B" />
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </div>
-                                <span class="flex gap-2 items-center  justify-between">
-                                    <span class="">Số lượng</span>
-
-                                    <div class="flex items-center">
-                                        <button type="button"
-                                            class="h-8 w-8 border border-gray-100 text-gray-700 rounded-tl rounded-bl hover:bg-gray-100 cursor-pointer"
-                                            onclick="decrement()">-</button>
-                                        <input id="quantity" type="number" value="1" min="1"
-                                            class="h-8 w-15 text-center border-t border-b border-gray-100" />
-                                        <button type="button"
-                                            class="h-8 w-8 border border-gray-100 text-gray-700 rounded-tr rounded-br hover:bg-gray-100 border-gray-100  cursor-pointer"
-                                            onclick="increment()">+</button>
-                                    </div>
-
-                                </span>
-                                <div class="flex gap-2 items-center mt-4">
-                                    <div class="text-slate-500">Phân loại: </div>
-                                    <div>
-                                        <span class="flex gap-2 items-center">
-                                            <span
-                                                class="rounded hover:bg-red-100 border border-gray-200 hover:border-red-500 p-2 text-sm cursor-pointer">nguyên
-                                                hộp</span>
-                                            <span
-                                                class="rounded hover:bg-red-100 border border-gray-200 hover:border-red-500 p-2 text-sm cursor-pointer">nguyên
-                                                hộp</span>
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div class="flex items-center flex-wrap gap-3 mt-4">
-                                    <button
-                                        class="border-blue-500 border px-6 py-2 text-color-base rounded-full cursor-pointer hover:opacity-80 flex items-center justify-center gap-2 w-full sm:w-auto">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none">
+                    <div class="space-y-6">
+                        <div class="sticky top-0 z-50 md:rounded-3xl rounded-xl bg-white md:p-5 p-3 md:block hidden">
+                            <h1 class="title-product">Viên Uống Healthy Care Glucosamine HCL
+                                1500mg,
+                                Hộp 400 Viên</h1>
+                            
+                            <div class="price-detail">
+                                <div class="flex gap-2 items-center">
+                                    <div class="number">169.000</div>
+                                    <div class="color-gray-2"><strike>338.000</strike></div>
+                                    <div class="sale-percent flex gap-1 items-center">50%
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="20" viewBox="0 0 10 20"
+                                            fill="none">
                                             <path
-                                                d="M9.75 20.25C9.75 20.5467 9.66203 20.8367 9.4972 21.0834C9.33238 21.33 9.09811 21.5223 8.82403 21.6358C8.54994 21.7494 8.24834 21.7791 7.95736 21.7212C7.66639 21.6633 7.39912 21.5204 7.18934 21.3107C6.97956 21.1009 6.8367 20.8336 6.77882 20.5426C6.72094 20.2517 6.75065 19.9501 6.86418 19.676C6.97771 19.4019 7.16997 19.1676 7.41665 19.0028C7.66332 18.838 7.95333 18.75 8.25 18.75C8.64782 18.75 9.02936 18.908 9.31066 19.1893C9.59196 19.4706 9.75 19.8522 9.75 20.25ZM18 18.75C17.7033 18.75 17.4133 18.838 17.1666 19.0028C16.92 19.1676 16.7277 19.4019 16.6142 19.676C16.5006 19.9501 16.4709 20.2517 16.5288 20.5426C16.5867 20.8336 16.7296 21.1009 16.9393 21.3107C17.1491 21.5204 17.4164 21.6633 17.7074 21.7212C17.9983 21.7791 18.2999 21.7494 18.574 21.6358C18.8481 21.5223 19.0824 21.33 19.2472 21.0834C19.412 20.8367 19.5 20.5467 19.5 20.25C19.5 19.8522 19.342 19.4706 19.0607 19.1893C18.7794 18.908 18.3978 18.75 18 18.75ZM22.4728 6.95062L20.0691 15.6019C19.9369 16.0745 19.6542 16.4911 19.2639 16.7885C18.8736 17.0859 18.397 17.2479 17.9062 17.25H8.64C8.14784 17.2498 7.66926 17.0886 7.27725 16.791C6.88523 16.4935 6.6013 16.0758 6.46875 15.6019L3.18 3.75H1.5C1.30109 3.75 1.11032 3.67098 0.96967 3.53033C0.829018 3.38968 0.75 3.19891 0.75 3C0.75 2.80109 0.829018 2.61032 0.96967 2.46967C1.11032 2.32902 1.30109 2.25 1.5 2.25H3.75C3.91397 2.24997 4.07343 2.30367 4.20398 2.40289C4.33452 2.50211 4.42895 2.64138 4.47281 2.79938L5.36156 6H21.75C21.8656 5.99998 21.9797 6.02669 22.0833 6.07805C22.1869 6.1294 22.2772 6.20401 22.3472 6.29605C22.4171 6.38809 22.4649 6.49506 22.4867 6.60861C22.5085 6.72216 22.5037 6.83922 22.4728 6.95062ZM20.7628 7.5H5.77875L7.91719 15.2006C7.96105 15.3586 8.05548 15.4979 8.18602 15.5971C8.31657 15.6963 8.47603 15.75 8.64 15.75H17.9062C18.0702 15.75 18.2297 15.6963 18.3602 15.5971C18.4908 15.4979 18.5852 15.3586 18.6291 15.2006L20.7628 7.5Z"
-                                                fill="#773EFA" />
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M13.125 8.625C13.5392 8.625 13.875 8.96079 13.875 9.375V10.5H15C15.4142 10.5 15.75 10.8358 15.75 11.25C15.75 11.6642 15.4142 12 15 12H13.875V13.125C13.875 13.5392 13.5392 13.875 13.125 13.875C12.7108 13.875 12.375 13.5392 12.375 13.125V12H11.25C10.8358 12 10.5 11.6642 10.5 11.25C10.5 10.8358 10.8358 10.5 11.25 10.5H12.375V9.375C12.375 8.96079 12.7108 8.625 13.125 8.625Z"
-                                                fill="#773EFA" />
-                                        </svg>Thêm vào giỏ hàng</button>
-                                    <button
-                                        class="border-blue-500 bg-blue-500 border px-6 py-2 text-white rounded-full cursor-pointer hover:opacity-80 w-full sm:w-auto">Mua
-                                        ngay</button>
+                                                d="M2.84029 0H8.70628L6.16098 7.41677H9.32153L0.809102 20L3.09313 10.4509H0L2.84029 0Z"
+                                                fill="#F9CA6B" />
+                                        </svg>
+                                    </div>
                                 </div>
                             </div>
+                            <span class="flex gap-2 items-center  justify-between">
+                                <span class="">Số lượng</span>
+
+                                <div class="flex items-center">
+                                    <button type="button"
+                                        class="h-8 w-8 border border-gray-100 text-gray-700 rounded-tl rounded-bl hover:bg-gray-100 cursor-pointer"
+                                        onclick="decrement()">-</button>
+                                    <input id="quantity" type="number" value="1" min="1"
+                                        class="h-8 w-15 text-center border-t border-b border-gray-100" />
+                                    <button type="button"
+                                        class="h-8 w-8 border border-gray-100 text-gray-700 rounded-tr rounded-br hover:bg-gray-100 border-gray-100  cursor-pointer"
+                                        onclick="increment()">+</button>
+                                </div>
+
+                            </span>
+                            <div class="flex gap-2 items-center mt-4">
+                                <div >Phân loại: </div>
+                                <div>
+                                    <span class="flex gap-2 items-center">
+                                        <span
+                                            class="rounded hover:bg-red-100 border border-gray-200 hover:border-red-500 p-2 text-sm cursor-pointer">nguyên
+                                            hộp</span>
+                                        <span
+                                            class="rounded hover:bg-red-100 border border-gray-200 hover:border-red-500 p-2 text-sm cursor-pointer">nguyên
+                                            hộp</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center flex-wrap gap-3 mt-4">
+                                <button
+                                    class="border-blue-500 border px-6 py-2 text-color-base rounded-full cursor-pointer hover:opacity-80 flex items-center justify-center gap-2 w-full sm:w-auto">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none">
+                                        <path
+                                            d="M9.75 20.25C9.75 20.5467 9.66203 20.8367 9.4972 21.0834C9.33238 21.33 9.09811 21.5223 8.82403 21.6358C8.54994 21.7494 8.24834 21.7791 7.95736 21.7212C7.66639 21.6633 7.39912 21.5204 7.18934 21.3107C6.97956 21.1009 6.8367 20.8336 6.77882 20.5426C6.72094 20.2517 6.75065 19.9501 6.86418 19.676C6.97771 19.4019 7.16997 19.1676 7.41665 19.0028C7.66332 18.838 7.95333 18.75 8.25 18.75C8.64782 18.75 9.02936 18.908 9.31066 19.1893C9.59196 19.4706 9.75 19.8522 9.75 20.25ZM18 18.75C17.7033 18.75 17.4133 18.838 17.1666 19.0028C16.92 19.1676 16.7277 19.4019 16.6142 19.676C16.5006 19.9501 16.4709 20.2517 16.5288 20.5426C16.5867 20.8336 16.7296 21.1009 16.9393 21.3107C17.1491 21.5204 17.4164 21.6633 17.7074 21.7212C17.9983 21.7791 18.2999 21.7494 18.574 21.6358C18.8481 21.5223 19.0824 21.33 19.2472 21.0834C19.412 20.8367 19.5 20.5467 19.5 20.25C19.5 19.8522 19.342 19.4706 19.0607 19.1893C18.7794 18.908 18.3978 18.75 18 18.75ZM22.4728 6.95062L20.0691 15.6019C19.9369 16.0745 19.6542 16.4911 19.2639 16.7885C18.8736 17.0859 18.397 17.2479 17.9062 17.25H8.64C8.14784 17.2498 7.66926 17.0886 7.27725 16.791C6.88523 16.4935 6.6013 16.0758 6.46875 15.6019L3.18 3.75H1.5C1.30109 3.75 1.11032 3.67098 0.96967 3.53033C0.829018 3.38968 0.75 3.19891 0.75 3C0.75 2.80109 0.829018 2.61032 0.96967 2.46967C1.11032 2.32902 1.30109 2.25 1.5 2.25H3.75C3.91397 2.24997 4.07343 2.30367 4.20398 2.40289C4.33452 2.50211 4.42895 2.64138 4.47281 2.79938L5.36156 6H21.75C21.8656 5.99998 21.9797 6.02669 22.0833 6.07805C22.1869 6.1294 22.2772 6.20401 22.3472 6.29605C22.4171 6.38809 22.4649 6.49506 22.4867 6.60861C22.5085 6.72216 22.5037 6.83922 22.4728 6.95062ZM20.7628 7.5H5.77875L7.91719 15.2006C7.96105 15.3586 8.05548 15.4979 8.18602 15.5971C8.31657 15.6963 8.47603 15.75 8.64 15.75H17.9062C18.0702 15.75 18.2297 15.6963 18.3602 15.5971C18.4908 15.4979 18.5852 15.3586 18.6291 15.2006L20.7628 7.5Z"
+                                            fill="#773EFA" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.125 8.625C13.5392 8.625 13.875 8.96079 13.875 9.375V10.5H15C15.4142 10.5 15.75 10.8358 15.75 11.25C15.75 11.6642 15.4142 12 15 12H13.875V13.125C13.875 13.5392 13.5392 13.875 13.125 13.875C12.7108 13.875 12.375 13.5392 12.375 13.125V12H11.25C10.8358 12 10.5 11.6642 10.5 11.25C10.5 10.8358 10.8358 10.5 11.25 10.5H12.375V9.375C12.375 8.96079 12.7108 8.625 13.125 8.625Z"
+                                            fill="#773EFA" />
+                                    </svg>Thêm vào giỏ hàng</button>
+                                <button
+                                    class="border-blue-500 bg-blue-500 border px-6 py-2 text-white rounded-full cursor-pointer hover:opacity-80 w-full sm:w-auto">Mua
+                                    ngay</button>
+                            </div>
                         </div>
-                        <div class="bg-green-50 p-3 md:p-5 rounded-3xl">
-                            <h4 class="text-green-400 mb-2">Làm sao để phân biệt hàng có trộn hay không ?</h4>
-                            <p class="text-gray-700 text-sm">Hàng trộn sẽ không thể xuất hoá đơn GTGT (VAT) 100% được do
+                        <div class="bg-[#E7F5ED] p-3 md:p-5 rounded-3xl">
+                            <h4 class="text-[#38AF6B] mb-2">Làm sao để phân biệt hàng có trộn hay không ?</h4>
+                            <p class="">Hàng trộn sẽ không thể xuất hoá đơn GTGT (VAT) 100% được do
                                 có hàng không nguồn gốc trong đó.
                                 <br />
                                 Tại Best Mall, 100% hàng bán ra sẽ được xuất hoá đơn GTGT cho dù khách hàng có lấy hay
@@ -1006,22 +1019,251 @@
 
         </div>
 
+ <!-- List Sản phẩm đã xem -->
+        <div class="my-6 md:my-10">
+             <div class="tab-xuhuong !mb-0">
+                <h2 class="title">Sản phẩm cùng thương hiệu</h2>
+            </div>
+            <!-- Swiper -->
+            <div class="relative">
+                <div class="flash-sale-swiper">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Slide Item -->
+                            <div class="swiper-slide pt-3">
+                                <div class="product-item bg-white rounded-xl p-2 text-slate-800 relative h-full pb-14">
+                                    <!-- tag -->
+                                    <img class="tag-banchay" src="images/tag-banchay.png" alt="" />
+                                    <!-- Sale badge -->
+                                    <a href="">
 
+                                        <div class="relative aspect-[1/1] overflow-hidden rounded-lg">
+                                            <img src="images/product1.jpg" alt="Sản phẩm"
+                                                class="absolute inset-0 w-full h-full object-cover" />
+                                            <div
+                                                class="tag-sale absolute bottom-0 z-10 left-0 bg-[url(images/tag-sale.png)] bg-contain bg-no-repeat text-white text-xs px-2 w-[56px] h-[30px] py-1">
+                                                -50%</div>
+                                        </div>
+                                        <p class="text-sm line-clamp-2 font-medium mt-2">Doppel hers - Ginkgo +
+                                            B-vitamin
+                                            +
+                                            Cholin</p>
+                                        <div class="absolute bottom-2 w-full px-2 left-0">
+                                            <div class="text-rose-600 font-bold mt-1">185.000 đ</div>
+                                            <div class="flex items-center justify-between">
+                                                <div class="text-xs line-through text-slate-400">215.000 đ</div>
+                                                <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
+                                                        class="text-color-base">(180)</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Slide Item -->
+                            <div class="swiper-slide  pt-3">
+                                <div class="product-item bg-white rounded-xl p-2 text-slate-800 relative h-full pb-14">
+                                    <!-- tag -->
+                                    <img class="tag-banchay" src="images/tag-banchay.png" alt="" />
+                                    <!-- Sale badge -->
+                                    <a href="">
+
+                                        <div class="relative aspect-[1/1] overflow-hidden rounded-lg">
+                                            <img src="images/product1.jpg" alt="Sản phẩm"
+                                                class="absolute inset-0 w-full h-full object-cover" />
+                                            <div
+                                                class="tag-sale absolute bottom-0 z-10 left-0 bg-[url(images/tag-sale.png)] bg-contain bg-no-repeat text-white text-xs px-2 w-[56px] h-[30px] py-1">
+                                                -50%</div>
+                                        </div>
+                                        <p class="text-sm line-clamp-2 font-medium mt-2">Doppel hers - Ginkgo +
+                                            B-vitamin
+                                            +
+                                            Cholin</p>
+                                        <div class="absolute bottom-2 w-full px-2 left-0">
+                                            <div class="text-rose-600 font-bold mt-1">185.000 đ</div>
+                                            <div class="flex items-center justify-between">
+                                                <div class="text-xs line-through text-slate-400">215.000 đ</div>
+                                                <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
+                                                        class="text-color-base">(180)</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Slide Item -->
+                            <div class="swiper-slide pt-3">
+                                <div class="product-item bg-white rounded-xl p-2 text-slate-800 relative h-full pb-14">
+                                    <!-- tag -->
+                                    <img class="tag-banchay" src="images/tag-banchay.png" alt="" />
+                                    <!-- Sale badge -->
+                                    <a href="">
+
+                                        <div class="relative aspect-[1/1] overflow-hidden rounded-lg">
+                                            <img src="images/product1.jpg" alt="Sản phẩm"
+                                                class="absolute inset-0 w-full h-full object-cover" />
+                                            <div
+                                                class="tag-sale absolute bottom-0 z-10 left-0 bg-[url(images/tag-sale.png)] bg-contain bg-no-repeat text-white text-xs px-2 w-[56px] h-[30px] py-1">
+                                                -50%</div>
+                                        </div>
+                                        <p class="text-sm line-clamp-2 font-medium mt-2">Doppel hers - Ginkgo +
+                                            B-vitamin
+                                            +
+                                            Cholin</p>
+                                        <div class="absolute bottom-2 w-full px-2 left-0">
+                                            <div class="text-rose-600 font-bold mt-1">185.000 đ</div>
+                                            <div class="flex items-center justify-between">
+                                                <div class="text-xs line-through text-slate-400">215.000 đ</div>
+                                                <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
+                                                        class="text-color-base">(180)</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Slide Item -->
+                            <div class="swiper-slide pt-3">
+                                <div class="product-item bg-white rounded-xl p-2 text-slate-800 relative h-full pb-14">
+                                    <!-- tag -->
+                                    <img class="tag-banchay" src="images/tag-banchay.png" alt="" />
+                                    <!-- Sale badge -->
+                                    <a href="">
+
+                                        <div class="relative aspect-[1/1] overflow-hidden rounded-lg">
+                                            <img src="images/product1.jpg" alt="Sản phẩm"
+                                                class="absolute inset-0 w-full h-full object-cover" />
+                                            <div
+                                                class="tag-sale absolute bottom-0 z-10 left-0 bg-[url(images/tag-sale.png)] bg-contain bg-no-repeat text-white text-xs px-2 w-[56px] h-[30px] py-1">
+                                                -50%</div>
+                                        </div>
+                                        <p class="text-sm line-clamp-2 font-medium mt-2">Doppel hers - Ginkgo +
+                                            B-vitamin
+                                            +
+                                            Cholin</p>
+                                        <div class="absolute bottom-2 w-full px-2 left-0">
+                                            <div class="text-rose-600 font-bold mt-1">185.000 đ</div>
+                                            <div class="flex items-center justify-between">
+                                                <div class="text-xs line-through text-slate-400">215.000 đ</div>
+                                                <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
+                                                        class="text-color-base">(180)</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Slide Item -->
+                            <div class="swiper-slide pt-3">
+                                <div class="product-item bg-white rounded-xl p-2 text-slate-800 relative h-full pb-14">
+                                    <!-- tag -->
+                                    <img class="tag-banchay" src="images/tag-banchay.png" alt="" />
+                                    <!-- Sale badge -->
+                                    <a href="">
+
+                                        <div class="relative aspect-[1/1] overflow-hidden rounded-lg">
+                                            <img src="images/product1.jpg" alt="Sản phẩm"
+                                                class="absolute inset-0 w-full h-full object-cover" />
+                                            <div
+                                                class="tag-sale absolute bottom-0 z-10 left-0 bg-[url(images/tag-sale.png)] bg-contain bg-no-repeat text-white text-xs px-2 w-[56px] h-[30px] py-1">
+                                                -50%</div>
+                                        </div>
+                                        <p class="text-sm line-clamp-2 font-medium mt-2">Doppel hers - Ginkgo +
+                                            B-vitamin
+                                            +
+                                            Cholin</p>
+                                        <div class="absolute bottom-2 w-full px-2 left-0">
+                                            <div class="text-rose-600 font-bold mt-1">185.000 đ</div>
+                                            <div class="flex items-center justify-between">
+                                                <div class="text-xs line-through text-slate-400">215.000 đ</div>
+                                                <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
+                                                        class="text-color-base">(180)</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Slide Item -->
+                            <div class="swiper-slide pt-3">
+                                <div class="product-item bg-white rounded-xl p-2 text-slate-800 relative h-full pb-14">
+                                    <!-- tag -->
+                                    <img class="tag-banchay" src="images/tag-banchay.png" alt="" />
+                                    <!-- Sale badge -->
+                                    <a href="">
+
+                                        <div class="relative aspect-[1/1] overflow-hidden rounded-lg">
+                                            <img src="images/product1.jpg" alt="Sản phẩm"
+                                                class="absolute inset-0 w-full h-full object-cover" />
+                                            <div
+                                                class="tag-sale absolute bottom-0 z-10 left-0 bg-[url(images/tag-sale.png)] bg-contain bg-no-repeat text-white text-xs px-2 w-[56px] h-[30px] py-1">
+                                                -50%</div>
+                                        </div>
+                                        <p class="text-sm line-clamp-2 font-medium mt-2">Doppel hers - Ginkgo +
+                                            B-vitamin
+                                            +
+                                            Cholin</p>
+                                        <div class="absolute bottom-2 w-full px-2 left-0">
+                                            <div class="text-rose-600 font-bold mt-1">185.000 đ</div>
+                                            <div class="flex items-center justify-between">
+                                                <div class="text-xs line-through text-slate-400">215.000 đ</div>
+                                                <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
+                                                        class="text-color-base">(180)</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Slide Item -->
+                            <div class="swiper-slide  pt-3">
+                                <div class="product-item bg-white rounded-xl p-2 text-slate-800 relative h-full pb-14">
+                                    <!-- tag -->
+                                    <img class="tag-banchay" src="images/tag-banchay.png" alt="" />
+                                    <!-- Sale badge -->
+                                    <a href="">
+
+                                        <div class="relative aspect-[1/1] overflow-hidden rounded-lg">
+                                            <img src="images/product1.jpg" alt="Sản phẩm"
+                                                class="absolute inset-0 w-full h-full object-cover" />
+                                            <div
+                                                class="tag-sale absolute bottom-0 z-10 left-0 bg-[url(images/tag-sale.png)] bg-contain bg-no-repeat text-white text-xs px-2 w-[56px] h-[30px] py-1">
+                                                -50%</div>
+                                        </div>
+                                        <p class="text-sm line-clamp-2 font-medium mt-2">Doppel hers - Ginkgo +
+                                            B-vitamin
+                                            +
+                                            Cholin</p>
+                                        <div class="absolute bottom-2 w-full px-2 left-0">
+                                            <div class="text-rose-600 font-bold mt-1">185.000 đ</div>
+                                            <div class="flex items-center justify-between">
+                                                <div class="text-xs line-through text-slate-400">215.000 đ</div>
+                                                <div class="text-xs text-yellow-500 mt-1">★ 4.9 <span
+                                                        class="text-color-base">(180)</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation -->
+                    <div class="swiper-button-next shadow !text-white !bg-white hover:!bg-white/70 rounded-full p-2">
+                        <svg class="w-4 h-4 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                    <div class="swiper-button-prev shadow !text-white !bg-white hover:!bg-white/70 rounded-full p-2">
+                        <svg class="w-4 h-4 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- List Sản phẩm đã xem -->
         <div class="my-6 md:my-10">
-            <div class="flex justify-between flex-wrap gap-2 mb-3">
-                <h2 class="text-sky-900 font-medium uppercase"><a href="">Sản phẩm đã xem</a> </h2>
-                <a href="#" class="flex items-center gap-2 text-blue-500 text-sm">Xem thêm<svg
-                        xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                        <path
-                            d="M12.773 9.39804L7.14804 15.023C7.09578 15.0753 7.03373 15.1168 6.96545 15.145C6.89716 15.1733 6.82398 15.1879 6.75007 15.1879C6.67616 15.1879 6.60297 15.1733 6.53469 15.145C6.46641 15.1168 6.40436 15.0753 6.3521 15.023C6.29984 14.9708 6.25838 14.9087 6.2301 14.8404C6.20181 14.7722 6.18726 14.699 6.18726 14.6251C6.18726 14.5512 6.20181 14.478 6.2301 14.4097C6.25838 14.3414 6.29984 14.2794 6.3521 14.2271L11.5798 9.00007L6.3521 3.77304C6.24655 3.66749 6.18726 3.52434 6.18726 3.37507C6.18726 3.2258 6.24655 3.08265 6.3521 2.9771C6.45765 2.87155 6.6008 2.81226 6.75007 2.81226C6.89934 2.81226 7.04249 2.87155 7.14804 2.9771L12.773 8.6021C12.8253 8.65434 12.8668 8.71638 12.8951 8.78466C12.9234 8.85295 12.938 8.92615 12.938 9.00007C12.938 9.07399 12.9234 9.14719 12.8951 9.21547C12.8668 9.28376 12.8253 9.3458 12.773 9.39804Z"
-                            fill="#773EFA" />
-                    </svg></a>
+             <div class="tab-xuhuong !mb-0">
+                <h2 class="title">Sản phẩm đã xem</h2>
             </div>
-
-            <div class="h-[1px] w-full bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500"></div>
             <!-- Swiper -->
-            <div class="relative mt-3">
+            <div class="relative">
                 <div class="flash-sale-swiper">
                     <div class="swiper">
                         <div class="swiper-wrapper">
