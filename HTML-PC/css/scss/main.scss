@@ -3486,10 +3486,10 @@ input[type="checkbox"]:checked::after {
       box-shadow: 4px 0 8px 0 rgba(9, 142, 247, 0.08), 0 4px 30px 0 rgba(9, 142, 247, 0.08);
       padding: 24px;
       position: relative;
-      color: var(--Text-Caption-Color-1, #58595B);
+      color:  #58595B;
       font-size: 15px;
       font-weight: 400;
-      line-height: 140%; /* 19.5px */
+      line-height: 140%;
       &::before{
         content: '';
         display: block;
